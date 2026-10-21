@@ -1,6 +1,41 @@
 # Umbrella Group — Motion 001
 
-## Corte atual: v5 para avaliação no celular
+## v6 — acabamento em branch, ainda sem MP4 final validado (21/10/2026)
+
+**Estado editorial: não aprovada.** A v5 foi criticada e não é master. Os 14 quadros existentes em v6-check/ foram inspecionados: queda inicial frontal/demasiado vertical, sombra deslocada e dura no macro, produto pequeno na abertura/hero e contraste rosado. O close da impressão em frame-0175.png e frame-0200.png é o trecho mais legível. A ponteira aparece cilíndrica no asset original e não foi substituída por geometria inventada. As correções de câmera/iluminação são hipóteses técnicas que exigem uma **nova renderização e revisão temporal**.
+
+**Mudanças nesta branch:** render_3d_v6.py ajusta poses de câmera fixa por plano; lookdev_v6.py neutraliza piso e cenário e suaviza a luz; assemble_v6.py monta frames em 24fps, texto em etapas, som sintético provisório alinhado a contato 4,90s e abertura 5,00–5,30s, prévia reduzida e validação técnica dos MP4s; preflight_v6.py audita a máquina e assets. Essas mudanças **não foram testadas no Blender** do ambiente isolado disponível nesta sessão, sem binário Blender nem GPU. O repositório foi acessado pelo conector GitHub, não clonado.
+
+**Copy temporal:** “Você esperou a queda.” (5,38–6,98s); “Seu site também precisa prender.” + “E converter.” (8,62–11,24s); “Conheça a Umbrella no perfil.” (11,36–14,98s); “Products that scale, solutions that fit.” (13,15–15s, subordinada). Sem alegação de conversão/retenção comprovadas.
+
+### Comandos locais de reprodução e QA
+
+Execute a partir da pasta Umbrella Group, com Blender 4.3+, Python 3, NumPy, Pillow, FFmpeg e FFprobe no PATH. Em máquinas com executáveis fora do PATH, ajuste a chamada para o Blender e passe --ffmpeg/--ffprobe ao montador. Não reutilize caminhos absolutos antigos.
+
+~~~bash
+python3 -m pip install -r motion-001/requirements.txt
+python3 motion-001/preflight_v6.py
+
+# 1. Re-render de 14 quadros, preservando o v6-check/ antigo.
+blender --background --factory-startup --python motion-001/render_3d_v6.py -- --out motion-001/v6-check-r2 --frames 0,20,32,65,82,104,118,124,132,148,175,200,240,320 --width 540 --height 960 --samples 32
+
+# 2. Após conferir os 14 quadros, render pequeno e montagem completa.
+blender --background --factory-startup --python motion-001/render_3d_v6.py -- --out motion-001/v6-frames-540 --all --width 540 --height 960 --samples 32 --resume
+python3 motion-001/assemble_v6.py --frames motion-001/v6-frames-540 --out motion-001/v6-preview
+
+# 3. Após assistir a prévia e corrigir problemas, saída em 1080.
+blender --background --factory-startup --python motion-001/render_3d_v6.py -- --out motion-001/v6-frames-1080 --all --width 1080 --height 1920 --samples 64 --resume
+python3 motion-001/preflight_v6.py --require-frames motion-001/v6-frames-1080
+python3 motion-001/assemble_v6.py --frames motion-001/v6-frames-1080 --out motion-001/v6
+~~~
+
+**Saídas esperadas, ainda não geradas aqui:** v6/motion-001-v6-1080x1920.mp4, v6/motion-001-v6-540x960.mp4, v6/motion-001-v6-contact-sheet.png e v6/motion-001-v6-validation.json. A montagem exige 360 PNGs do objeto real; em falta de frames ou de fonte original, aborta. Inspeciona 24fps, H.264/AAC, dimensões, áudio, duração, decodificação e contato visual. O relatório técnico não equivale à aprovação estética ou de legibilidade no celular.
+
+**Limitações:** dinâmica da copa é uma aproximação analítica, não simulação física certificada; sons são inteiramente sintéticos provisórios, não foley autêntico; assets pertencem à reconstrução da LP em revisão e não ao master aprovado. Hierarquia de marca **01 → 02 → 03**. Nada publicar nem alterar produção sem autorização.
+
+---
+
+## Histórico: v5 criticada — não aprovada
 
 O Reel tem **15 s, 24 fps e 9:16**. A v5 responde à revisão do usuário: movimento no primeiro quadro, queda de cerca de 5 s pela ponta da haste, contato macro, abertura em meio segundo, copa invertida que inclina e balança, corte direto para a marca impressa, recuo e assinatura exata. O quadro inicial percorre o tecido durante 0,29 s, e um segundo detalhe de tecido quebra a queda longa. A luz quente fica à esquerda do cenário e a luz violeta cresce à direita na abertura; o piso permanece grafite fosco. A câmera deriva discretamente no fim para que o produto não congele sob o letreiro.
 

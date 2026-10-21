@@ -20,7 +20,7 @@ look = module('look_v6', 'lookdev_v6.py')
 motion = module('motion_v6', 'motion_v6.py')
 FPS = 24
 COUNT = 360
-CUTS = (0, 30, 80, 120, 164, 204, 360)
+CUTS = (0, 30, 80, 120, 168, 204, 360)
 NAMES = ('fall_portrait', 'fall_floor', 'tip_macro', 'snap_open', 'printed_brand', 'hero')
 
 def shot(t):
@@ -33,28 +33,28 @@ def camera_pose(t, state, cam, which=None):
     if s == 0:
         # The object traverses a stationary portrait frame immediately.
         target = Vector((-.035, 0, 2.57))
-        location = target + Vector((1.16, -1.66, .12))
-        lens, fstop = 70, 5.6
-        roll = math.radians(-10)
+        location = target + Vector((.78, -1.88, .18))
+        lens, fstop = 72, 9
+        roll = math.radians(8)
         focus = state['tip_position'] + Vector((0,0,.60))
     elif s == 1:
         # Floor and shadow establish the coming collision. Tilt is small and
         # motivated by the falling object; neither lens nor distance zooms.
         p = motion.clamp((t - 1.25) / (80/24 - 1.25))
         target = Vector((0, 0, 1.40 - .53*p))
-        location = Vector((1.72, -2.46, 1.63))
-        lens, fstop = 66, 7.1
+        location = Vector((.90, -2.36, 1.71))
+        lens, fstop = 70, 9
         focus = state['tip_position'] + Vector((0,0,.52))
     elif s == 2:
         # Fixed macro camera sees the tip approach a visible landing plane.
-        target = Vector((0, 0, .080))
-        location = Vector((.255, -.365, .125))
-        lens, fstop = 86, 13
+        target = Vector((0, 0, .060))
+        location = Vector((.205, -.330, .112))
+        lens, fstop = 86, 16
         focus = state['tip_position'] + Vector((0,0,.026))
     elif s == 3:
         target = Vector((0, 0, .64))
         location = Vector((2.65, -1.88, 1.26))
-        lens, fstop = 66, 8
+        lens, fstop = 73, 9
         focus = Vector((0,0,.48))
     elif s == 4:
         # A matched product insert: the actual print, no overlay substitute.
@@ -129,7 +129,9 @@ def render(args):
     report = motion.diagnostics(rig)
     report.update({'frames':COUNT, 'fps':FPS, 'width':args.width, 'height':args.height,
                    'engine':args.engine, 'backend':scene.get('render_backend'),
-                   'cuts_frames':CUTS,'shots':NAMES,'transform_motion_blur':not args.no_blur})
+                   'cuts_frames':CUTS,'shots':NAMES,'transform_motion_blur':not args.no_blur,
+                   'editorial_approval':False,
+                   'note':'Material and camera corrections need inspection of the full preview; v5 not approved.'})
     (out/'render-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     numbers = range(args.start,args.end) if args.all else [int(n) for n in args.frames.split(',')]
     for i in numbers:

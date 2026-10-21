@@ -18,6 +18,9 @@ def module(name, filename):
 
 look = module('look_v6', 'lookdev_v6.py')
 motion = module('motion_v6', 'motion_v6.py')
+cloth_pose = module('cloth_pose_v6', 'cloth_pose_v6.py')
+cloth_pose.install(look.base.geometry)
+cloth_pose.install(motion.geometry)
 FPS = 24
 COUNT = 360
 CUTS = (0, 30, 80, 120, 164, 204, 360)
@@ -32,9 +35,9 @@ def camera_pose(t, state, cam, which=None):
     roll = 0.0
     if s == 0:
         # The object traverses a stationary portrait frame immediately.
-        target = Vector((-.035, 0, 2.57))
+        target = Vector((-.035, 0, 2.67))
         location = target + Vector((1.16, -1.66, .12))
-        lens, fstop = 70, 5.6
+        lens, fstop = 65, 5.6
         roll = math.radians(-10)
         focus = state['tip_position'] + Vector((0,0,.60))
     elif s == 1:
@@ -60,15 +63,15 @@ def camera_pose(t, state, cam, which=None):
         # A matched product insert: the actual print, no overlay substitute.
         target = state['brand_position'] + Vector((0,0,.04))
         location = target + Vector((1.08, -.76, .25))
-        lens, fstop = 86, 8
-        focus = state['brand_position']
+        lens, fstop = 86, 11
+        focus = state['brand_focus']
     else:
         # Quiet lateral parallax leaves the scale and floor stable under copy.
         p = motion.smooth((t - 8.5) / 6.5)
         target = Vector((0, 0, .62))
         location = Vector((2.72-.12*p, -1.92-.12*p, 1.35))
-        lens, fstop = 68, 8
-        focus = Vector((0,0,.48))
+        lens, fstop = 68, 11
+        focus = state['brand_focus']
     cam.location = location
     cam.rotation_mode = 'QUATERNION'
     cam.rotation_quaternion = ((target-location).to_track_quat('-Z','Y')
@@ -89,7 +92,7 @@ def linear_keys(obj):
             for key in curve.keyframe_points:
                 key.interpolation = 'LINEAR'
 
-def prepare(rig, cam, scene, blur):
+def prepare(rig, cam, scene, blur, start=0, end=COUNT):
     cameras = [cam]
     for name in NAMES[1:]:
         data = cam.data.copy()
@@ -100,7 +103,7 @@ def prepare(rig, cam, scene, blur):
     root.rotation_mode = 'QUATERNION'
     # Transform keyframes provide actual shutter integration for the root and
     # camera. The original linkage mesh is still evaluated explicitly per frame.
-    for i in range(-1, COUNT+1):
+    for i in range(start-1, end+1):
         t = i/FPS
         state = motion.apply_motion(t, rig)
         key_transform(root, i)
@@ -125,13 +128,17 @@ def render(args):
     out = Path(args.out).resolve()
     out.mkdir(parents=True, exist_ok=True)
     rig, cam, scene = look.scene_setup(args.width,args.height,args.samples,args.engine)
-    cameras = prepare(rig,cam,scene,not args.no_blur)
+    numbers = range(args.start,args.end) if args.all else [int(n) for n in args.frames.split(',')]
+    if not len(numbers):
+        raise ValueError('No frames requested')
+    cameras = prepare(rig,cam,scene,not args.no_blur,min(numbers),max(numbers)+1)
     report = motion.diagnostics(rig)
     report.update({'frames':COUNT, 'fps':FPS, 'width':args.width, 'height':args.height,
                    'engine':args.engine, 'backend':scene.get('render_backend'),
+                   'samples':args.samples, 'closed_folds_per_gore':rig['config']['folds_per_gore'],
+                   'denoiser':scene.cycles.denoiser if args.engine=='CYCLES' else None,
                    'cuts_frames':CUTS,'shots':NAMES,'transform_motion_blur':not args.no_blur})
     (out/'render-report.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-    numbers = range(args.start,args.end) if args.all else [int(n) for n in args.frames.split(',')]
     for i in numbers:
         dest = out/f'frame-{i:04d}.png'
         if args.resume and dest.is_file():

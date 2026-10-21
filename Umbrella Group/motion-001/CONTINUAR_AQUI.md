@@ -1,69 +1,62 @@
-# Umbrella Motion 001 — ponto de continuidade
+# Umbrella Motion 001 — estado atual
 
-Atualizado em 21/10/2026. Este arquivo preserva o estado do projeto para retomar em outro chat/conta. A v6 ainda NÃO está finalizada nem foi renderizada como vídeo. Não tratar a v5 como aprovada.
+Atualizado em 21/10/2026. **V6 exportada e verificada**: 15 segundos, 24 fps, 360 quadros, H.264/AAC estéreo e Rec.709. Os dois MP4s foram decodificados por inteiro sem erros. Esta é uma iteração da reconstrução da LP, não um master de identidade aprovado.
 
-## Pedido ativo
+## Entregas
 
-Melhorar substancialmente o Reel: zooms anteriores ruins, movimento mecânico, cenário vazio e aparência de jogo. O usuário autoriza pesquisa e trabalho local prolongado, sem contas novas, serviços pagos, créditos de geração, publicação ou alteração de produção. Entrega: MP4 vertical 1080×1920 e prévia540×960, aproximadamente15s, scripts reproduzíveis. Preservar documentos Umbrella01→02→03. A reconstrução da LP não é master aprovado.
+- `v6/motion-001-v6-1080x1920.mp4`: vídeo vertical em resolução cheia.
+- `v6/motion-001-v6-540x960.mp4`: prévia derivada do arquivo grande.
+- `v6/hero-frame.png` e `v6/contact-sheet.png`: referências de revisão.
+- `v6/sound-mix.wav`: mixagem local.
+- `v6/render-report.json`: parâmetros da cena.
+- `v6/verification.json`: duração, dimensões, quadros e SHA256 dos vídeos.
 
-O objetivo confirmado é levar a pessoa ao perfil para conhecer a Umbrella. Última direção de texto do usuário: conectar a espera pela queda à capacidade de um site de prender atenção e converter. Copy proposta no chat: “Você esperou a queda.” → “Seu site também precisa prender. E converter.” → “Conheça a Umbrella no perfil.” Preservar a assinatura “Products that scale, solutions that fit.”, sem sobrecarregar a leitura simultânea.
+O pedido foi continuar o desenvolvimento neste computador e enviar o resultado ao repositório `eduardo-bido/PC-da-firma`, dentro de **Umbrella Group**. O usuário fará eventual publicação do Reel. Não houve publicação no Instagram ou alteração da LP.
 
-## Ação e direção aprovadas
+## Conceito e mensagem
 
-- Movimento desde o primeiro0,5s. Guarda-chuva fechado cai pela ponta fina da haste por cerca de5s.
-- Macro muito próximo da ponteira durante a aproximação final em slow motion; chão legível.
-- Contato forte e abertura rápida com som de mecanismo/tecido. Sem música; som provisório autorizado.
-- Copa invertida, cabo para cima, grande no quadro. Tombamento de cerca30°, toque no chão e movimento levemente quicado/rotacionado com amortecimento.
-- Corte rápido para close da impressão real da marca. Tipografia sobre a cena no final.
-- Violeta da marca, estúdio grafite fosco, iluminação mais fotográfica e cenário com cor. Evitar neon futurista e mudanças de lente descontroladas.
+Queda pela ponta fina da haste por cerca de 5 s, macro do contato, abertura rápida, guarda-chuva invertido com cabo para cima, balanço com transferência de apoio, corte para a impressão e fechamento com CTA ao perfil.
 
-## Assets verificados e arquivos anteriores
+Texto em etapas:
 
-- `source/geometry.py`, `source/scene.py`, atlas e mapas de tecido vêm da reconstrução V7 do repositório privado `eduardo-bido/umbrellahq`.
-- `source/umbrella-print-atlas.png` é a impressão original. A variante `umbrella-print-atlas-inverted-shot.png` gira pixels para a tomada invertida; é artifício documentado de prévia, não master novo.
-- `../public/fonts/Manrope.ttf` e `../public/experiencia/umbrella-b1/motion-v4.mp4` correspondem aos arquivos fornecidos pelo usuário.
-- `v5/motion-001-v5-1080x1920.mp4` e `v5/motion-001-v5-540x960.mp4` são a última versão entregue, criticada pelo usuário.
-- `v5-frames-1080/` contém360quadros. `render_3d_v5.py` e `assemble_v5.py` reproduzem a versão anterior.
-- README.md tem histórico, fontes, comandos e comparação de ferramentas. Não sobrescrever fonte proprietária nem produção.
+1. “Você esperou a queda.”
+2. “Seu site também precisa prender.”
+3. “E converter.”
+4. “Umbrella” / “Products that scale, solutions that fit.”
+5. “Conheça a Umbrella no perfil”
 
-## Trabalho novo já salvo
+O objetivo é visita ao perfil. Retenção e conversão ainda não foram medidas. A pesquisa e seus limites estão em `RESEARCH_V6.md`.
 
-- `lookdev_v6.py`: scene_setup(width,height,samples,engine='CYCLES') retorna rig,camera,scene. Usa tecido existente, Cycles/OptiX, piso real emz0, fundo curvo, luz direcional e sombra de recorte. `_studio_lights` substitui `_lights` da v5. Não usar posev5 diretamente sem adaptar.
-- `diagnostics/look-v6-9.2.png` e `look-v6-1.0.png`: testes de luz, não quadros finais. Avaliação: sombras/material melhoraram, mas enquadramento ainda é emprestado da v5 e precisa ser refeito.
-- `diagnostics/lookdev-v6-report.md`: relatório dos testes de luz.
-- `motion_v6.py`: novo controlador apply_motion(t,rig), com queda balística remapeada, abertura5,00–5,30s, suporte calculado sobre geometria real e balanço amortecido. Escrito por subagente; ainda precisa revisão/teste integrado. Retorna tip_position,brand_position,matrix,openness,phase e outros dados. Não há câmera neste módulo.
-- `RESEARCH_V6.md`: fontes primárias de campanhas e limites da evidência, copy e plano de avaliação. Houve inspeção visual amostral do filme Nike/AirMax no Vimeo, sem download; não houve avaliação auditiva integral.
+## Implementação vigente
 
-## Erros concretos encontrados na v5
+- `render_3d_v6.py`: seis tomadas com lentes fixas; cortes nos quadros 0, 30, 80, 120, 164 e 204; blur de transformação e render por intervalos.
+- `motion_v6.py`: queda balística em relógio de slow motion; contato 4,90 s; abertura 5,00–5,30 s; inclinação máxima de 29,76° e apoio na geometria existente. O foco da marca usa a posição da impressão na superfície do tecido.
+- `cloth_pose_v6.py`: quatro pregas por painel fechado, pelo solver original de área. Estado aberto, UV e impressão preservados.
+- `lookdev_v6.py`: Cycles, detecção de GPU, key lateral, fundo ameixa e recorte âmbar. Luz do fundo vinculada apenas ao cenário. OptiX também faz o denoise quando disponível.
+- `assemble_v6.py`: Manrope, mensagem em etapas, CTA, áudio e MP4s.
+- `verify_v6.py`: valida os vídeos por decodificação integral, sem ffprobe.
+- `review-v6.html`: revisão local por tomada e avanço de um quadro.
 
-1. Piso emz=-0,012, ponteira emz0: havia12mm de ar no contato. V6 usa pisoz0 e contato calculado.
-2. Câmera interpolava posição e focal em grandes distâncias, causando zoom artificial. Refazer com lentes fixas por plano e cortes motivados.
-3. Modelo rígido da copa não permite ponta e borda apoiadas simultaneamente a30° sem deformação. Aceitar transferência plausível de apoio e pequena elevação da ponta durante o tombamento; não alegar simulação física completa.
-4. Excesso de fontes/luz de preenchimento achatava tecido e chão. Cycles GPU local é viável.
+## Assets e identidade
 
-## Próximos passos necessários
+Preservar **Umbrella 01 → 02 → 03**. Os documentos completos não estão nesta cópia; o README registra referências ao repositório original privado `eduardo-bido/umbrellahq`.
 
-1. Revisar/testar motion_v6.py: trajetória, apoios, ausência de penetração, amplitudes de balanço e legibilidade da marca.
-2. Criar render_3d_v6.py com planos de lente fixa. Esboço ainda não implementado:0–1,25s produto fechado grande e diagonal com movimento imediato;1,25–3,35s queda com piso/sombra;3,35–5,00s macro de contato;5,00–6,8s abertura rápida e primeiro balanço;6,8–8,5s close da impressão;8,5–15s hero e copy/CTA.
-3. Dar atenção à câmera macro: t3,35 ponta~0,144m; t4,0~0,065m; t4,9 contato. Evitar perseguir a ponta a ponto de esconder sua aproximação do chão.
-4. Implementar motion blur real dos transforms com keyframes quando viável. O rig atual atualiza mesh/curvas por código; não presumir que ativar motion blur sozinho captura a deformação da abertura.
-5. Criar assemble_v6.py com copy em etapas, Manrope, tagline exata e CTA de perfil. Sincronizar áudio provisório aos novos tempos, sem prometer foley autêntico.
-6. Renderizar testes de quadros, rever; depois vídeo reduzido completo e revisar temporalmente. Só então1080×1920 e preview final, decodificar ambos e atualizar documentação.
+`source/geometry.py`, `source/scene.py`, impressão e mapas Terlenka são os assets da reconstrução V7 da LP. `public/fonts/Manrope.ttf` e `public/experiencia/umbrella-b1/motion-v4.mp4` correspondem aos arquivos fornecidos pelo usuário. Não substituir um asset ausente por aproximação nem tratar a reconstrução como master.
 
-## Ambiente local confirmado
+O atlas invertido é uma variante de orientação da impressão para a tomada e permanece documentado como artifício de prévia. A fonte original está preservada.
 
-Pasta: `C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group`.
+O áudio mistura uma abertura real CC0 por **bewareofkites20**, obtida da prévia pública do Freesound, com contatos e texturas procedurais locais. MP3, WAV e licença estão em `source/audio/`. Não houve conta nova, serviço pago ou geração com créditos. Os contatos não são gravação deste objeto proprietário.
 
-- Blender4.3.2: `C:\Program Files\Blender Foundation\Blender 4.3\blender.exe`.
-- GPU NVIDIA RTX3060Ti8GB. CyclesOptiX32samples540×960: cerca2,3s por quadro após inicialização no teste. Não há render longo ativo neste checkpoint.
-- Python3.12: comando `python`; NumPy e Pillow já instalados.
-- FFmpeg: `C:\Program Files\ShareX\ffmpeg.exe` (não está no PATH).
-- Scripts de montagem usam FFmpeg/Pillow. Existe encoder alternativo embutido no Blender testado em540×960.
+## Limites e revisão futura
 
-Três subagentes colaboraram nesta rodada, mas terminaram com aviso de limite de uso depois de salvar seus módulos/documentos. Não há motivo para comprar créditos. A revisão e integração dos módulos ainda são responsabilidade do agente que retomar.
+A abertura e o apoio são dirigidos por código; não há simulação de tecido com auto-colisão nem massas medidas. A revisão incluiu reprodução reduzida e inspeção de contato, abertura, impressão e tipografia. Métricas automáticas verificam arquivos, não comprovam qualidade estética ou conversão.
 
-## Como retomar em um chat novo
+As versões anteriores continuam como histórico. A v5 foi criticada por zooms artificiais, movimento mecânico, cenário vazio e pouca clareza comercial. Não retomá-la como aprovada.
 
-Abra esta mesma pasta no aplicativo desktop, permita seu acesso e peça: “Leia motion-001/CONTINUAR_AQUI.md, confira os arquivos existentes e continue a v6 do Motion001. Não refaça a v5 nem considere a tarefa concluída.”
+## Reproduzir ou continuar em outra máquina
 
-O chat original local chama-se “Criar prova de conceito Motion 001”, id01a1591d-7920-73d0-84d0-32fb7e7f36c3. Um novo chat precisa deste contexto; não presumir que trocar de conta transfere histórico ou acesso aos conectores.
+Abra **Umbrella Group** no checkout de `PC-da-firma`. Leia a seção V6 do README para render, montagem e verificação. Detecte os executáveis desta máquina; não reutilize caminhos absolutos do Windows em um Mac.
+
+Nesta entrega: Blender 4.3.2, RTX 3060 Ti 8 GB, Python 3.12, NumPy/Pillow e FFmpeg do ShareX. O render final usa 24 amostras com denoise, 1080×1920 e todos os 360 quadros. Os quadros intermediários novos ficam fora do Git e podem ser recriados.
+
+Para uma nova iteração, parta dos MP4s V6 e das correções concretas do usuário. Preserve produção local gratuita, assets e hierarquia de identidade; obtenha autorização própria antes de publicar em redes sociais.

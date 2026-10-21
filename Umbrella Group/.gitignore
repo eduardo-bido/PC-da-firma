@@ -1,0 +1,14 @@
+.git-delivery/
+**/__pycache__/
+*.log
+optix7cache.db*
+motion-001/v6-frames-*/
+motion-001/v6-check/
+motion-001/v6-preview/
+motion-001/diagnostics/fold-*.png
+motion-001/diagnostics/sample-24.png
+motion-001/diagnostics/optix-denoise.png
+motion-001/diagnostics/github-audit-*.json
+motion-001/diagnostics/v6-sound-test.wav
+motion-001/diagnostics/preview-opening.png
+motion-001/diagnostics/find_foley_preview.py

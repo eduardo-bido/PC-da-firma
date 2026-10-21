@@ -1,6 +1,36 @@
 # Umbrella Group — Motion 001
 
-## Corte atual: v5 para avaliação no celular
+## V6 — atenção, queda e convite ao perfil
+
+A v6 substitui a câmera da v5 por seis tomadas com lentes fixas: retrato da queda, plano com chão, macro da ponteira, abertura, impressão e hero. A física usa gravidade em um relógio de slow motion, apoio calculado na superfície existente e balanço com amortecimento. A ponteira encontra o piso em Z=0 aos 4,90 s; a abertura acontece entre 5,00 e 5,30 s. Há transferência de apoio durante a inclinação, em vez de manter artificialmente ponta e borda simultaneamente no chão.
+
+A luz usa Cycles, key lateral retangular, pouco preenchimento e fundo ameixa com recorte âmbar. A fonte do fundo ilumina apenas o cenário para evitar uma segunda sombra dura do objeto. Há motion blur de transformação do objeto e das câmeras. A deformação da abertura continua avaliada por quadro pelo rig original; não há simulação de tecido com auto-colisão.
+
+`cloth_pose_v6.py` configura quatro pregas por painel na tomada fechada, usando o mesmo solver de área da reconstrução. Isso alarga as dobras e reduz o aspecto de tubo estriado; o estado aberto, o UV e a impressão permanecem os da fonte. A configuração é local à tomada e não altera `source/geometry.py`.
+
+A mensagem entra em etapas: **“Você esperou a queda.” → “Seu site também precisa prender.” → “E converter.” → “Umbrella”**, assinatura e **“Conheça a Umbrella no perfil”**. O objetivo é visita ao perfil. A pesquisa em [RESEARCH_V6.md](RESEARCH_V6.md) distingue referências visuais de campanhas com resultados documentados; nenhum resultado de conversão da Umbrella está sendo alegado.
+
+O áudio combina uma [abertura real CC0, por bewareofkites20](https://freesound.org/people/bewareofkites20/sounds/148918/), com contatos e texturas procedurais locais. Fonte, MP3 público e WAV decodificado estão em `source/audio/`, com licença. Não houve conta nova, serviço pago nem geração com créditos. Os sons de contato continuam uma interpretação editorial, não uma gravação deste objeto proprietário.
+
+Reprodução, a partir da pasta **Umbrella Group**, com Blender 4.3, Python, NumPy, Pillow e FFmpeg:
+
+```sh
+python3 -m pip install -r motion-001/requirements.txt
+python3 motion-001/make_shot_atlas.py
+blender --background --factory-startup --python motion-001/render_3d_v6.py -- --out motion-001/v6-frames-1080 --all --width 1080 --height 1920 --samples 24
+python3 motion-001/assemble_v6.py --frames motion-001/v6-frames-1080 --out motion-001/v6 --ffmpeg "$(command -v ffmpeg)" --font public/fonts/Manrope.ttf
+python3 motion-001/verify_v6.py --out motion-001/v6 --ffmpeg "$(command -v ffmpeg)"
+```
+
+No Windows, use `python` e os caminhos locais dos executáveis. O render detecta OptiX, CUDA, Metal, HIP ou OneAPI; se nenhum estiver disponível, usa CPU e registra essa escolha. Para revisar primeiro, use `--width 540 --height 960 --samples 32`. `--frames 0,118,128,176,336` renderiza apenas os quadros indicados. `--start` e `--end` dividem um render completo; `--resume` preserva quadros já existentes.
+
+Entregas em `v6/`: `motion-001-v6-1080x1920.mp4`, `motion-001-v6-540x960.mp4`, `hero-frame.png`, `contact-sheet.png` e `sound-mix.wav`. A montagem gera H.264/AAC com faststart, 24 fps e 15 s. Os quadros intermediários novos ficam fora do Git; os scripts e assets permitem recriá-los. Os documentos **01 → 02 → 03** continuam regendo identidade. A reconstrução e a variante de orientação da impressão permanecem documentadas como estudo da LP, sem promoção a master.
+
+Revisão mobile: reconhecer movimento nos primeiros 0,5 s; entender o contato sem som; ler a impressão no insert; ler cada frase sem pausar; conferir a chamada ao perfil acima da interface inferior. O nome e a assinatura ocupam a área central superior no final. Os controles reais da plataforma variam e devem ser conferidos no preview de publicação pelo usuário.
+
+Para a revisão local com botões por tomada e avanço de um quadro, execute `python3 -m http.server 8541 --bind 127.0.0.1` na pasta Umbrella Group e abra `http://127.0.0.1:8541/motion-001/review-v6.html`. O player usa o MP4 reduzido exportado em `v6/`; os arquivos permanecem no computador.
+
+## Corte anterior: v5
 
 O Reel tem **15 s, 24 fps e 9:16**. A v5 responde à revisão do usuário: movimento no primeiro quadro, queda de cerca de 5 s pela ponta da haste, contato macro, abertura em meio segundo, copa invertida que inclina e balança, corte direto para a marca impressa, recuo e assinatura exata. O quadro inicial percorre o tecido durante 0,29 s, e um segundo detalhe de tecido quebra a queda longa. A luz quente fica à esquerda do cenário e a luz violeta cresce à direita na abertura; o piso permanece grafite fosco. A câmera deriva discretamente no fim para que o produto não congele sob o letreiro.
 
@@ -151,4 +181,4 @@ O comando publicado pelo mantenedor é `npx skills add remotion-dev/skills`. Exe
 6. Ouvir a ponta tocar, o tecido abrir e os cliques do mecanismo em volume confortável. O áudio sintético atual avalia só ritmo; foley real ainda é necessário para uma peça ASMR final.
 7. Comparar quadros representativos com a reconstrução da LP e com os documentos 01/02/03; qualquer divergência de forma, cor ou inscrição volta para revisão, sem promover esta reconstrução a master.
 
-**Estado neste ambiente:** os dois assets fornecidos pelo usuário estão em `public/experiencia/umbrella-b1/` e `public/fonts/`, com hashes SHA256 idênticos aos originais. A fonte V7 da reconstrução e a impressão foram recuperadas do repositório privado; os mapas públicos do tecido foram conferidos pelo manifesto. Os cortes em `dist/` e `fall/` foram rejeitados. As v3 e v4 foram renderizadas em 1080 × 1920 e reduzidas para 540 × 960. A v5 foi renderizada em 1080 × 1920 e reduzida para 540 × 960; ambos os MP4s têm 15 s, 24 fps, H.264/AAC e foram decodificados sem erro. O codificador alternativo embutido no Blender também foi testado em 540 × 960, com vídeo e áudio decodificados. O contato/quíque continua uma animação analítica, não uma simulação física de tecido; o apoio da copa deve ser julgado visualmente no celular. A trilha é gerada por código e não foi validada como foley final. Não houve publicação.
+**Estado registrado ao fechar a v5:** os dois assets fornecidos pelo usuário estão em `public/experiencia/umbrella-b1/` e `public/fonts/`, com hashes SHA256 idênticos aos originais. A fonte V7 da reconstrução e a impressão foram recuperadas do repositório privado; os mapas públicos do tecido foram conferidos pelo manifesto. Os cortes em `dist/` e `fall/` foram rejeitados. As v3 e v4 foram renderizadas em 1080 × 1920 e reduzidas para 540 × 960. A v5 foi renderizada em 1080 × 1920 e reduzida para 540 × 960; ambos os MP4s têm 15 s, 24 fps, H.264/AAC e foram decodificados sem erro. O codificador alternativo embutido no Blender também foi testado em 540 × 960, com vídeo e áudio decodificados. O contato/quíque continua uma animação analítica, não uma simulação física de tecido; o apoio da copa deve ser julgado visualmente no celular. A trilha é gerada por código e não foi validada como foley final. Não houve publicação.

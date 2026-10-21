@@ -1,0 +1,13 @@
+Umbrella Opening.mp3 — bewareofkites20
+Source: https://freesound.org/people/bewareofkites20/sounds/148918/
+Public HQ preview: https://cdn.freesound.org/previews/148/148918_2610233-hq.mp3
+License: Creative Commons Zero / CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+License checked on the original author's Freesound page on 2026-10-21.
+
+The source page describes an umbrella opening fiercely, 1.149 s, mono.
+The public preview was downloaded without an account. No paid stock service
+or generated audio service was used. The local WAV is a 48 kHz mono decode
+of that MP3, for reproducible offline composition. The original preview is
+preserved alongside it. Editorial gain, timing and room reflections are
+applied by assemble_v6.py. Other impacts and air/cloth textures are procedural.

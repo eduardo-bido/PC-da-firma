@@ -1,0 +1,29 @@
+{
+  "version": "v6",
+  "outputs": [
+    {
+      "file": "motion-001-v6-1080x1920.mp4",
+      "bytes": 3859591,
+      "sha256": "686d05594229e5983cdcac691c7e49a722e4a1bf0f0af0c2dbd6d7f5498d8726",
+      "duration_s": 15.0,
+      "decoded_frames": 360,
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1080x1920, 1956 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 95 kb/s (default)",
+      "decode_errors": ""
+    },
+    {
+      "file": "motion-001-v6-540x960.mp4",
+      "bytes": 985633,
+      "sha256": "28d89681450bed0414871b616158b63e08d8344e9531ea2a4e624c824ac5b5dd",
+      "duration_s": 15.0,
+      "decoded_frames": 360,
+      "video": "Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 540x960, 423 kb/s, 24 fps, 24 tbr, 12288 tbn (default)",
+      "audio": "Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 95 kb/s (default)",
+      "decode_errors": ""
+    }
+  ],
+  "audio_source": "CC0 recording by bewareofkites20 plus procedural contact and cloth details; source/audio/LICENSE.txt",
+  "identity": "LP reconstruction in review; documents 01 > 02 > 03 retain authority.",
+  "visual_review": "Complete reduced playback and sampled inspection of contact, opening, print and copy. No measured audience retention or conversion result.",
+  "limitations": "Art-directed opening and reduced support-body physics; no cloth self-collision or measured mass model."
+}

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Umbrella — revisão Motion001 v6</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#101013;color:#f5f3f7;font:16px system-ui;display:flex;gap:32px;justify-content:center;padding:24px}
+main{position:relative}video{height:calc(100vh - 48px);max-width:calc(100vw - 360px);background:#000;display:block}aside{max-width:290px;line-height:1.5}
+h1{font-size:22px}button{background:#25242a;color:#f5f3f7;border:1px solid #555;border-radius:6px;padding:9px 12px;margin:3px;cursor:pointer}
+#safe{pointer-events:none;position:absolute;inset:13% 8% 17%;border:1px dashed #fff9;display:none}small{color:#b7b0c0}
+@media(max-width:700px){body{display:block;padding:0}video{height:auto;width:100vw;max-width:none}aside{padding:20px;max-width:none}}
+</style>
+<main><video id="video" controls playsinline preload="auto"></video><div id="safe"></div></main>
+<aside><h1>Umbrella / Motion 001</h1><p>Revisão local em 15 segundos.</p><p id="clock">0,00 s</p>
+<button id="play">Reproduzir desde o início</button><button id="grid">Área segura aproximada</button>
+<p><button data-time="0">Início</button><button data-time="3.8">Ponteira</button><button data-time="4.9">Contato</button><button data-time="5.2">Abertura</button><button data-time="7.5">Impressão</button><button data-time="9.5">Mensagem</button><button data-time="14">Assinatura</button></p>
+<button id="previous">−1 quadro</button><button id="next">+1 quadro</button>
+<p><small>A moldura é uma referência de composição. Os controles reais do Instagram variam conforme dispositivo e contexto de publicação.</small></p>
+</aside>
+<script>
+const v=document.querySelector('video');v.addEventListener('timeupdate',()=>document.querySelector('#clock').textContent=v.currentTime.toFixed(2)+' s');
+const folder=new URLSearchParams(location.search).has('draft')?'v6-preview':'v6';
+fetch(folder+'/motion-001-v6-540x960.mp4').then(r=>{if(!r.ok)throw Error('Vídeo ainda não exportado');return r.blob()}).then(b=>{v.src=URL.createObjectURL(b);v.load()}).catch(e=>document.querySelector('#clock').textContent=e.message);
+document.querySelector('#play').onclick=()=>{v.currentTime=0;v.play()};
+document.querySelector('#grid').onclick=()=>{let s=document.querySelector('#safe');s.style.display=s.style.display==='block'?'none':'block'};
+document.querySelectorAll('[data-time]').forEach(b=>b.onclick=()=>{v.pause();v.currentTime=+b.dataset.time});
+document.querySelector('#previous').onclick=()=>{v.pause();v.currentTime=Math.max(0,v.currentTime-1/24)};
+document.querySelector('#next').onclick=()=>{v.pause();v.currentTime=Math.min(v.duration,v.currentTime+1/24)};
+</script></html>

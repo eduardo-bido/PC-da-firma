@@ -136,6 +136,9 @@ def choose_cycles(scene, samples):
         except Exception:
             continue
     scene.cycles.device = 'CPU' if selected == 'CPU' else 'GPU'
+    # Keep denoising on the RTX as well. CPU denoising was the dominant cost
+    # in the measured 1080p test; the OptiX comparison retained SSIM > .997.
+    scene.cycles.denoiser = 'OPTIX' if selected == 'OPTIX' else 'OPENIMAGEDENOISE'
     scene['render_backend'] = selected
     print('UMBRELLA_V6_CYCLES_BACKEND', selected, flush=True)
 
@@ -181,6 +184,11 @@ def scene_setup(width, height, samples, engine='CYCLES'):
         # the shadow a coherent penumbra instead of a shader-painted gradient.
         'background': area('V6 warm wall key', (-3.3,.8,4.5), (.3,3.65,1.7), 350,.08,.08,(1,.70,.43)),
     }
+    # A flagged background source exposes only the sweep. This prevents its
+    # tiny emitter from casting a second razor-sharp product silhouette.
+    receivers = bpy.data.collections.new('V6 backdrop light receivers')
+    receivers.objects.link(bpy.data.objects['V6 curved photographic backdrop'])
+    lights['background'].light_linking.receiver_collection = receivers
     rig['_studio_lights'] = lights
     bpy.ops.object.camera_add()
     cam = bpy.context.object

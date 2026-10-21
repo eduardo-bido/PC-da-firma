@@ -76,6 +76,9 @@ def _mesh_points(obj):
 
 def _support_points(rig):
     """Use the real canopy skin, ferrule cap, rib tips and crown hub."""
+    # Newly created and reposed ferrules must expose current local matrices.
+    # Otherwise a first scene build can sample the identity matrix for a tip.
+    bpy.context.view_layer.update()
     items = [rig["canopy"], *rig["tips"]]
     items.extend(obj for obj in rig["root"].children
                  if obj.name in {"TopFerrule", "CrownHub"})
@@ -217,6 +220,10 @@ def apply_motion(t, rig):
         "crown_position": matrix @ Vector((0, 0, rig["config"]["crown_z"])),
         "handle_position": matrix @ Vector((0, -.09, .08)),
         "brand_position": matrix @ Vector((.405, 0, .88)),
+        # Print alpha bbox centre is y=753.5/1024 in the verified atlas.
+        # Invert the source shader's UV transform to land on the real fabric,
+        # rather than focusing on the interior framing landmark above.
+        "brand_focus": matrix @ geometry.sample_surface(rig,0,.50067,.74644),
         "openness": a, "contact": gap <= .0002,
         "yaw": yaw, "tilt": theta, "ground_gap": gap,
         "impact_events": [CONTACT_TIME] + [SETTLE_START + v for v in model["events"]],

@@ -29,7 +29,7 @@ python3 motion-001/preflight_v6.py --require-frames motion-001/v6-frames-1080
 python3 motion-001/assemble_v6.py --frames motion-001/v6-frames-1080 --out motion-001/v6
 ~~~
 
-**Saídas esperadas, ainda não geradas aqui:** v6/motion-001-v6-1080x1920.mp4, v6/motion-001-v6-540x960.mp4, v6/motion-001-v6-contact-sheet.png e v6/motion-001-v6-validation.json. A montagem exige 360 PNGs do objeto real; em falta de frames ou de fonte original, aborta. Inspeciona 24fps, H.264/AAC, dimensões, áudio, duração, decodificação e contato visual. O relatório técnico não equivale à aprovação estética ou de legibilidade no celular.
+**Saídas esperadas, ainda não geradas aqui:** v6/motion-001-v6-1080x1920.mp4, v6/motion-001-v6-540x960.mp4, v6/motion-001-v6-contact-sheet.png e v6/motion-001-v6-validation.json. A montagem exige 360 PNGs do objeto real; em falta de frames ou de fonte original, aborta. O montador verifica tecnicamente H.264/AAC, 360 quadros, dimensões, áudio, duração e decodificação. Enquadramento, contato, ritmo, foco e legibilidade mobile ainda dependem de revisão humana do vídeo renderizado. O relatório técnico não equivale à aprovação estética ou de legibilidade no celular.
 
 **Limitações:** dinâmica da copa é uma aproximação analítica, não simulação física certificada; sons são inteiramente sintéticos provisórios, não foley autêntico; assets pertencem à reconstrução da LP em revisão e não ao master aprovado. Hierarquia de marca **01 → 02 → 03**. Nada publicar nem alterar produção sem autorização.
 

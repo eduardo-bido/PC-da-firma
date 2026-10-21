@@ -112,7 +112,7 @@ def avg(x: np.ndarray, width: int) -> np.ndarray:
     return ((s[hi]-s[lo]) / (hi-lo)).astype(np.float32)
 
 
-def audio_sketch(dst: Path) -> None:
+def audio_sketch(dst: Path, impact_events: list[float] | None = None) -> None:
     """Locally synthesized *placeholder*, NOT authentic recorded umbrella foley."""
     n = RATE*FRAMES//FPS
     t = np.arange(n, dtype=np.float64)/RATE
@@ -142,8 +142,9 @@ def audio_sketch(dst: Path) -> None:
     settle_env = np.asarray([ease((float(v)-5.31)/.17)*
                              (1-ease((float(v)-7.3)/1.5)) for v in t], dtype=np.float32)
     sound += .006*soft*settle_env
-    click(5.654, 370, .055, 75)
-    click(6.012, 300, .035, 80)
+    # Extra canopy-contact taps require actual event evidence from render-report.
+    for index, when in enumerate((impact_events or [4.90])[1:]):
+        click(float(when), 370-index*70, .055/(1+index), 75+index*5)
     peak = float(np.max(np.abs(sound)))
     if peak > .90:
         sound *= .90/peak
@@ -226,7 +227,14 @@ def main():
         p.error(f"Unexpected frame size {(width, height)}; expected 540x960 or 1080x1920.")
     a.out.mkdir(parents=True, exist_ok=True)
     wav = a.out/"motion-001-v6-provisional-synthetic.wav"
-    audio_sketch(wav)
+    motion_report = a.frames / "render-report.json"
+    impacts = None
+    if motion_report.is_file():
+        data = json.loads(motion_report.read_text(encoding="utf-8"))
+        impacts = data.get("impact_events_s")
+        if not isinstance(impacts, list) or not impacts or abs(float(impacts[0])-4.90) > .03:
+            raise ValueError("Unexpected contact timing in render-report.json")
+    audio_sketch(wav, impacts)
 
     out = a.out/f"{a.name}-{width}x{height}.mp4"
     cmd = [str(a.ffmpeg), "-hide_banner", "-loglevel", "error", "-y",

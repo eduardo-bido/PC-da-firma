@@ -1,0 +1,1068 @@
+UMBRELLA_V6_CYCLES_BACKEND OPTIX
+UMBRELLA_BAKE 0
+UMBRELLA_BAKE 60
+UMBRELLA_BAKE 120
+UMBRELLA_BAKE 180
+UMBRELLA_BAKE 240
+UMBRELLA_BAKE 300
+UMBRELLA_BAKE 360
+Blender 4.3.2 (hash 32f5fdce0a0a built 2024-12-17 03:35:23)
+Fra:0 Mem:87.19M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canopy
+Fra:0 Mem:87.19M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_00
+Fra:0 Mem:89.51M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_00
+Fra:0 Mem:89.58M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_00
+Fra:0 Mem:89.58M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_01
+Fra:0 Mem:89.70M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_01
+Fra:0 Mem:89.78M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_02
+Fra:0 Mem:89.83M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_01
+Fra:0 Mem:89.84M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tip_01
+Fra:0 Mem:89.90M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_02
+Fra:0 Mem:90.10M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_02
+Fra:0 Mem:90.12M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_03
+Fra:0 Mem:90.16M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_03
+Fra:0 Mem:90.24M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_03
+Fra:0 Mem:90.24M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_04
+Fra:0 Mem:90.36M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_04
+Fra:0 Mem:90.88M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_05
+Fra:0 Mem:90.94M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_04
+Fra:0 Mem:90.95M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tip_04
+Fra:0 Mem:90.99M (Peak 92.59M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_05
+Fra:0 Mem:93.42M (Peak 93.42M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_06
+Fra:0 Mem:93.49M (Peak 93.49M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_05
+Fra:0 Mem:93.53M (Peak 93.53M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_06
+Fra:0 Mem:93.58M (Peak 93.58M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tip_05
+Fra:0 Mem:93.62M (Peak 93.62M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_06
+Fra:0 Mem:93.63M (Peak 93.63M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rib_07
+Fra:0 Mem:94.22M (Peak 94.22M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Seam_07
+Fra:0 Mem:94.29M (Peak 94.29M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | SewnHem
+Fra:0 Mem:94.40M (Peak 94.40M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stretcher_07
+Fra:0 Mem:94.72M (Peak 94.72M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tip_07
+Fra:0 Mem:95.04M (Peak 95.04M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shaft
+Fra:0 Mem:97.88M (Peak 97.88M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | JHandle
+Fra:0 Mem:98.09M (Peak 98.09M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Runner
+Fra:0 Mem:98.15M (Peak 98.15M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | TwinNeedleThreads
+Fra:0 Mem:98.15M (Peak 98.15M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | FlatFelledSeamAllowances_8mm
+Fra:0 Mem:99.06M (Peak 99.06M) | Time:00:00.19 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | CrownTextileReinforcement
+Fra:0 Mem:116.76M (Peak 117.88M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:0 Mem:116.79M (Peak 117.88M) | Time:00:00.20 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:0 Mem:141.81M (Peak 163.13M) | Time:00:00.27 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:0 Mem:141.81M (Peak 163.13M) | Time:00:00.27 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:0 Mem:141.81M (Peak 163.13M) | Time:00:00.27 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:141.81M (Peak 170.52M) | Time:00:00.36 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Scene
+Fra:0 Mem:141.81M (Peak 170.52M) | Time:00:00.36 | Mem:0.01M, Peak:0.01M | Scene, ViewLayer | Updating Shaders
+Fra:0 Mem:141.91M (Peak 170.52M) | Time:00:00.37 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Procedurals
+Fra:0 Mem:141.91M (Peak 170.52M) | Time:00:00.37 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Background
+Fra:0 Mem:141.91M (Peak 170.52M) | Time:00:00.37 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Camera
+Fra:0 Mem:141.91M (Peak 170.52M) | Time:00:00.37 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:141.91M (Peak 170.52M) | Time:00:00.37 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects
+Fra:0 Mem:141.91M (Peak 170.52M) | Time:00:00.37 | Mem:0.03M, Peak:0.03M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:141.93M (Peak 170.52M) | Time:00:00.37 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:141.93M (Peak 170.52M) | Time:00:00.37 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems
+Fra:0 Mem:141.93M (Peak 170.52M) | Time:00:00.37 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:141.93M (Peak 170.52M) | Time:00:00.37 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes
+Fra:0 Mem:147.48M (Peak 170.52M) | Time:00:00.37 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:173.45M (Peak 173.45M) | Time:00:00.38 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:173.44M (Peak 173.45M) | Time:00:00.39 | Mem:25.99M, Peak:25.99M | Scene, ViewLayer | Updating Geometry BVH Cube.001 46/46 | Building BVH
+Fra:0 Mem:173.44M (Peak 173.45M) | Time:00:00.39 | Mem:25.99M, Peak:25.99M | Scene, ViewLayer | Updating Geometry BVH Cube.001 46/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.44M (Peak 173.45M) | Time:00:00.39 | Mem:25.99M, Peak:25.99M | Scene, ViewLayer | Updating Geometry BVH Rib_00Curve 2/46 | Building BVH
+Fra:0 Mem:173.44M (Peak 173.45M) | Time:00:00.39 | Mem:25.99M, Peak:25.99M | Scene, ViewLayer | Updating Geometry BVH Tip_02Mesh 13/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.46M (Peak 173.46M) | Time:00:00.39 | Mem:25.99M, Peak:25.99M | Scene, ViewLayer | Updating Geometry BVH Rib_03Curve 14/46 | Building BVH
+Fra:0 Mem:173.46M (Peak 173.46M) | Time:00:00.39 | Mem:25.99M, Peak:25.99M | Scene, ViewLayer | Updating Geometry BVH Rib_03Curve 14/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.62M (Peak 173.62M) | Time:00:00.39 | Mem:26.04M, Peak:26.04M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building BVH
+Fra:0 Mem:173.62M (Peak 173.62M) | Time:00:00.39 | Mem:26.04M, Peak:26.04M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.34M (Peak 178.34M) | Time:00:00.39 | Mem:30.89M, Peak:30.89M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building BVH
+Fra:0 Mem:178.34M (Peak 178.34M) | Time:00:00.39 | Mem:30.99M, Peak:30.99M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.32M (Peak 178.34M) | Time:00:00.39 | Mem:30.94M, Peak:30.99M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building BVH
+Fra:0 Mem:178.32M (Peak 178.34M) | Time:00:00.39 | Mem:31.00M, Peak:31.00M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:30.93M, Peak:31.01M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building BVH
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:30.93M, Peak:31.01M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:30.91M, Peak:31.01M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 18/46 | Building BVH
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:30.96M, Peak:31.01M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 18/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:30.93M, Peak:31.03M | Scene, ViewLayer | Updating Geometry BVH Seam_04Curve 19/46 | Building BVH
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:31.03M, Peak:31.03M | Scene, ViewLayer | Updating Geometry BVH Seam_04Curve 19/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:30.95M, Peak:31.05M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building BVH
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:31.05M, Peak:31.05M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.01M, Peak:31.06M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building BVH
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.01M, Peak:31.06M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.29M (Peak 178.34M) | Time:00:00.39 | Mem:30.97M, Peak:31.06M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 22/46 | Building BVH
+Fra:0 Mem:178.29M (Peak 178.34M) | Time:00:00.39 | Mem:31.02M, Peak:31.06M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 22/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:30.99M, Peak:31.06M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 23/46 | Building BVH
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.09M, Peak:31.09M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 23/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.00M, Peak:31.11M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building BVH
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.03M, Peak:31.11M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:31.01M, Peak:31.11M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building BVH
+Fra:0 Mem:178.31M (Peak 178.34M) | Time:00:00.39 | Mem:31.12M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.29M (Peak 178.34M) | Time:00:00.39 | Mem:31.02M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 26/46 | Building BVH
+Fra:0 Mem:178.29M (Peak 178.34M) | Time:00:00.39 | Mem:31.07M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 26/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.04M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 27/46 | Building BVH
+Fra:0 Mem:178.30M (Peak 178.34M) | Time:00:00.39 | Mem:31.07M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 27/46 | Building OptiX acceleration structure
+Fra:0 Mem:178.32M (Peak 178.34M) | Time:00:00.39 | Mem:31.06M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building BVH
+Fra:0 Mem:178.32M (Peak 178.34M) | Time:00:00.39 | Mem:31.06M, Peak:31.12M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.62M (Peak 178.34M) | Time:00:00.40 | Mem:33.30M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building BVH
+Fra:0 Mem:173.62M (Peak 178.34M) | Time:00:00.40 | Mem:33.40M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.61M (Peak 178.34M) | Time:00:00.40 | Mem:33.30M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Rib_07Curve 30/46 | Building BVH
+Fra:0 Mem:173.61M (Peak 178.34M) | Time:00:00.40 | Mem:33.31M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Rib_07Curve 30/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.62M (Peak 178.34M) | Time:00:00.40 | Mem:33.32M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building BVH
+Fra:0 Mem:173.62M (Peak 178.34M) | Time:00:00.40 | Mem:33.37M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.61M (Peak 178.34M) | Time:00:00.40 | Mem:33.32M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 31/46 | Building BVH
+Fra:0 Mem:173.61M (Peak 178.34M) | Time:00:00.40 | Mem:33.35M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 31/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.63M (Peak 178.34M) | Time:00:00.40 | Mem:33.34M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building BVH
+Fra:0 Mem:173.63M (Peak 178.34M) | Time:00:00.40 | Mem:33.45M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.62M (Peak 178.34M) | Time:00:00.40 | Mem:33.46M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building BVH
+Fra:0 Mem:173.62M (Peak 178.34M) | Time:00:00.40 | Mem:33.46M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.60M (Peak 178.34M) | Time:00:00.40 | Mem:33.36M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 34/46 | Building BVH
+Fra:0 Mem:173.60M (Peak 178.34M) | Time:00:00.40 | Mem:33.41M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 34/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.77M (Peak 178.34M) | Time:00:00.40 | Mem:33.54M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building BVH
+Fra:0 Mem:173.77M (Peak 178.34M) | Time:00:00.40 | Mem:33.56M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.77M (Peak 178.34M) | Time:00:00.40 | Mem:33.55M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building BVH
+Fra:0 Mem:173.77M (Peak 178.34M) | Time:00:00.40 | Mem:33.65M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.76M (Peak 178.34M) | Time:00:00.40 | Mem:33.56M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building BVH
+Fra:0 Mem:173.76M (Peak 178.34M) | Time:00:00.40 | Mem:33.66M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.75M (Peak 178.34M) | Time:00:00.40 | Mem:33.59M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building BVH
+Fra:0 Mem:173.75M (Peak 178.34M) | Time:00:00.40 | Mem:33.62M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.75M (Peak 178.34M) | Time:00:00.40 | Mem:33.59M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building BVH
+Fra:0 Mem:173.75M (Peak 178.34M) | Time:00:00.40 | Mem:33.60M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.80M (Peak 178.34M) | Time:00:00.40 | Mem:33.63M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 40/46 | Building BVH
+Fra:0 Mem:173.80M (Peak 178.34M) | Time:00:00.40 | Mem:33.73M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 40/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.89M (Peak 178.34M) | Time:00:00.40 | Mem:33.85M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 41/46 | Building BVH
+Fra:0 Mem:173.89M (Peak 178.34M) | Time:00:00.40 | Mem:33.85M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 41/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.97M (Peak 178.34M) | Time:00:00.40 | Mem:33.84M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 42/46 | Building BVH
+Fra:0 Mem:173.97M (Peak 178.34M) | Time:00:00.40 | Mem:33.90M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 42/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.97M (Peak 178.34M) | Time:00:00.40 | Mem:33.87M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 43/46 | Building BVH
+Fra:0 Mem:173.97M (Peak 178.34M) | Time:00:00.40 | Mem:33.87M, Peak:51.15M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 43/46 | Building OptiX acceleration structure
+Fra:0 Mem:173.44M (Peak 178.34M) | Time:00:00.41 | Mem:35.33M, Peak:51.15M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:173.44M (Peak 178.34M) | Time:00:00.41 | Mem:35.33M, Peak:51.15M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:0 Mem:173.44M (Peak 178.34M) | Time:00:00.41 | Mem:35.34M, Peak:51.15M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:173.44M (Peak 178.34M) | Time:00:00.41 | Mem:35.34M, Peak:51.15M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:187.18M (Peak 187.18M) | Time:00:00.42 | Mem:35.34M, Peak:51.15M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:187.18M (Peak 187.18M) | Time:00:00.42 | Mem:49.07M, Peak:51.15M | Scene, ViewLayer | Updating Objects Flags
+Fra:0 Mem:187.18M (Peak 187.18M) | Time:00:00.42 | Mem:49.07M, Peak:51.15M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:187.18M (Peak 187.18M) | Time:00:00.42 | Mem:49.07M, Peak:51.15M | Scene, ViewLayer | Updating Images
+Fra:0 Mem:187.18M (Peak 187.18M) | Time:00:00.42 | Mem:49.07M, Peak:51.15M | Scene, ViewLayer | Updating Images | Loading terlenka_nor_gl_1k.png
+Fra:0 Mem:187.18M (Peak 187.18M) | Time:00:00.42 | Mem:49.07M, Peak:51.15M | Scene, ViewLayer | Updating Images | Loading terlenka_rough_1k.png
+Fra:0 Mem:221.22M (Peak 221.22M) | Time:00:00.47 | Mem:83.11M, Peak:83.11M | Scene, ViewLayer | Updating Camera Volume
+Fra:0 Mem:221.22M (Peak 221.22M) | Time:00:00.47 | Mem:83.11M, Peak:83.11M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:221.22M (Peak 221.22M) | Time:00:00.47 | Mem:83.19M, Peak:83.19M | Scene, ViewLayer | Updating Lights
+Fra:0 Mem:221.22M (Peak 221.22M) | Time:00:00.47 | Mem:83.19M, Peak:83.19M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:0 Mem:221.23M (Peak 221.23M) | Time:00:00.47 | Mem:83.19M, Peak:83.19M | Scene, ViewLayer | Updating Integrator
+Fra:0 Mem:221.23M (Peak 221.23M) | Time:00:00.47 | Mem:83.19M, Peak:83.19M | Scene, ViewLayer | Updating Film
+Fra:0 Mem:221.23M (Peak 221.23M) | Time:00:00.47 | Mem:83.11M, Peak:83.19M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:221.23M (Peak 221.23M) | Time:00:00.47 | Mem:83.20M, Peak:83.20M | Scene, ViewLayer | Updating Baking
+Fra:0 Mem:221.23M (Peak 221.23M) | Time:00:00.47 | Mem:83.20M, Peak:83.20M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:221.23M (Peak 221.23M) | Time:00:00.47 | Mem:83.20M, Peak:83.20M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:0 Mem:225.23M (Peak 225.23M) | Time:00:00.48 | Mem:427.20M, Peak:427.20M | Scene, ViewLayer | Sample 0/32
+Fra:0 Mem:262.81M (Peak 262.81M) | Time:00:00.50 | Remaining:00:00.69 | Mem:464.78M, Peak:464.78M | Scene, ViewLayer | Sample 1/32
+Fra:0 Mem:278.64M (Peak 302.37M) | Time:00:02.12 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Sample 32/32
+Fra:0 Mem:278.64M (Peak 302.37M) | Time:00:02.12 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0000.png'
+Time: 00:02.39 (Saving: 00:00.26)
+
+UMBRELLA_FRAME 0 fall_portrait C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0000.png
+Fra:20 Mem:262.82M (Peak 262.82M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_00
+Fra:20 Mem:262.82M (Peak 262.82M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Canopy
+Fra:20 Mem:262.80M (Peak 262.82M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Seam_00
+Fra:20 Mem:263.03M (Peak 263.03M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Stretcher_00
+Fra:20 Mem:263.04M (Peak 263.04M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_01
+Fra:20 Mem:263.00M (Peak 263.04M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Seam_01
+Fra:20 Mem:263.11M (Peak 263.11M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Stretcher_01
+Fra:20 Mem:263.96M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_02
+Fra:20 Mem:263.94M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Seam_02
+Fra:20 Mem:263.92M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_03
+Fra:20 Mem:263.91M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Seam_03
+Fra:20 Mem:263.89M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_04
+Fra:20 Mem:263.88M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Stretcher_02
+Fra:20 Mem:263.89M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Tip_02
+Fra:20 Mem:263.88M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Tip_03
+Fra:20 Mem:263.85M (Peak 263.96M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_05
+Fra:20 Mem:266.71M (Peak 266.71M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Stretcher_04
+Fra:20 Mem:266.64M (Peak 266.71M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Seam_05
+Fra:20 Mem:266.63M (Peak 266.71M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_06
+Fra:20 Mem:266.61M (Peak 266.71M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Stretcher_05
+Fra:20 Mem:266.63M (Peak 266.71M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Tip_05
+Fra:20 Mem:267.53M (Peak 267.53M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Tip_06
+Fra:20 Mem:267.54M (Peak 267.54M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Rib_07
+Fra:20 Mem:267.50M (Peak 267.54M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Seam_07
+Fra:20 Mem:267.72M (Peak 267.72M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Stretcher_07
+Fra:20 Mem:267.73M (Peak 267.73M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | SewnHem
+Fra:20 Mem:267.57M (Peak 267.73M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Shaft
+Fra:20 Mem:267.58M (Peak 267.73M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | Runner
+Fra:20 Mem:267.51M (Peak 267.73M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | FlatFelledSeamAllowances_8mm
+Fra:20 Mem:267.51M (Peak 267.73M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | TwinNeedleThreads
+Fra:20 Mem:275.44M (Peak 279.21M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:20 Mem:275.44M (Peak 279.21M) | Time:00:00.00 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:00.07 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Initializing
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:00.07 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Waiting for render to start
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:00.07 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Updating Scene
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Updating Shaders
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Updating Background
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.79M, Peak:464.79M | Scene, ViewLayer | Updating Camera
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.70M, Peak:464.79M | Scene, ViewLayer | Updating Meshes Flags
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.70M, Peak:464.79M | Scene, ViewLayer | Updating Objects
+Fra:20 Mem:257.26M (Peak 317.31M) | Time:00:01.25 | Mem:464.70M, Peak:464.79M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:20 Mem:257.27M (Peak 317.31M) | Time:00:01.25 | Mem:464.71M, Peak:464.79M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:20 Mem:257.27M (Peak 317.31M) | Time:00:01.25 | Mem:464.71M, Peak:464.79M | Scene, ViewLayer | Updating Particle Systems
+Fra:20 Mem:257.27M (Peak 317.31M) | Time:00:01.25 | Mem:464.71M, Peak:464.79M | Scene, ViewLayer | Updating Meshes
+Fra:20 Mem:223.14M (Peak 317.31M) | Time:00:01.26 | Mem:425.02M, Peak:464.79M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:20 Mem:249.13M (Peak 317.31M) | Time:00:01.26 | Mem:425.03M, Peak:464.79M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.27 | Mem:450.98M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Cube.001 46/46 | Building BVH
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.27 | Mem:450.98M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_03Curve 15/46 | Building BVH
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.27 | Mem:450.97M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_03Curve 15/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.12M (Peak 317.31M) | Time:00:01.27 | Mem:450.93M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building BVH
+Fra:20 Mem:249.12M (Peak 317.31M) | Time:00:01.27 | Mem:450.93M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building OptiX acceleration structure
+Fra:20 Mem:252.08M (Peak 317.31M) | Time:00:01.27 | Mem:444.01M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building BVH
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:444.02M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.99M (Peak 317.31M) | Time:00:01.27 | Mem:448.73M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building BVH
+Fra:20 Mem:253.99M (Peak 317.31M) | Time:00:01.27 | Mem:448.75M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.73M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building BVH
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.83M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.74M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 18/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.74M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 18/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.74M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_04Curve 19/46 | Building BVH
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.82M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_04Curve 19/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.74M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building BVH
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.83M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.79M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.84M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.96M (Peak 317.31M) | Time:00:01.27 | Mem:448.75M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 22/46 | Building BVH
+Fra:20 Mem:253.96M (Peak 317.31M) | Time:00:01.27 | Mem:448.78M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 22/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.75M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 23/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.79M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 23/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.76M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building BVH
+Fra:20 Mem:253.98M (Peak 317.31M) | Time:00:01.27 | Mem:448.85M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.76M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.78M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.81M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 26/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.84M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 26/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.76M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 27/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.27 | Mem:448.85M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 27/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.28 | Mem:448.77M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.28 | Mem:448.81M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.28 | Mem:448.83M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building BVH
+Fra:20 Mem:253.97M (Peak 317.31M) | Time:00:01.28 | Mem:448.82M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building OptiX acceleration structure
+Fra:20 Mem:253.96M (Peak 317.31M) | Time:00:01.28 | Mem:448.78M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_07Curve 30/46 | Building BVH
+Fra:20 Mem:253.96M (Peak 317.31M) | Time:00:01.28 | Mem:450.73M, Peak:464.79M | Scene, ViewLayer | Updating Geometry BVH Rib_07Curve 30/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.28M (Peak 317.31M) | Time:00:01.28 | Mem:451.10M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 31/46 | Building BVH
+Fra:20 Mem:249.28M (Peak 317.31M) | Time:00:01.28 | Mem:451.09M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 31/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.29M (Peak 317.31M) | Time:00:01.28 | Mem:451.10M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building BVH
+Fra:20 Mem:249.29M (Peak 317.31M) | Time:00:01.28 | Mem:451.12M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.29M (Peak 317.31M) | Time:00:01.28 | Mem:451.10M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building BVH
+Fra:20 Mem:249.29M (Peak 317.31M) | Time:00:01.28 | Mem:451.19M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.28M (Peak 317.31M) | Time:00:01.28 | Mem:451.11M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building BVH
+Fra:20 Mem:249.28M (Peak 317.31M) | Time:00:01.28 | Mem:451.20M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.26M (Peak 317.31M) | Time:00:01.28 | Mem:451.14M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 34/46 | Building BVH
+Fra:20 Mem:249.26M (Peak 317.31M) | Time:00:01.28 | Mem:450.99M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 34/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.43M (Peak 317.31M) | Time:00:01.28 | Mem:451.11M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building BVH
+Fra:20 Mem:249.43M (Peak 317.31M) | Time:00:01.28 | Mem:451.13M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.43M (Peak 317.31M) | Time:00:01.28 | Mem:451.16M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building BVH
+Fra:20 Mem:249.43M (Peak 317.31M) | Time:00:01.28 | Mem:451.21M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.42M (Peak 317.31M) | Time:00:01.28 | Mem:451.12M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building BVH
+Fra:20 Mem:249.42M (Peak 317.31M) | Time:00:01.28 | Mem:451.21M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.41M (Peak 317.31M) | Time:00:01.28 | Mem:451.15M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building BVH
+Fra:20 Mem:249.41M (Peak 317.31M) | Time:00:01.28 | Mem:451.17M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.41M (Peak 317.31M) | Time:00:01.28 | Mem:451.13M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building BVH
+Fra:20 Mem:249.41M (Peak 317.31M) | Time:00:01.28 | Mem:451.09M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.46M (Peak 317.31M) | Time:00:01.28 | Mem:451.23M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 40/46 | Building BVH
+Fra:20 Mem:249.46M (Peak 317.31M) | Time:00:01.28 | Mem:451.13M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 40/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.55M (Peak 317.31M) | Time:00:01.28 | Mem:451.18M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 41/46 | Building BVH
+Fra:20 Mem:249.55M (Peak 317.31M) | Time:00:01.28 | Mem:451.13M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 41/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.63M (Peak 317.31M) | Time:00:01.29 | Mem:451.13M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 42/46 | Building BVH
+Fra:20 Mem:249.63M (Peak 317.31M) | Time:00:01.29 | Mem:451.18M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 42/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.63M (Peak 317.31M) | Time:00:01.29 | Mem:451.16M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 43/46 | Building BVH
+Fra:20 Mem:249.63M (Peak 317.31M) | Time:00:01.29 | Mem:449.71M, Peak:468.94M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 43/46 | Building OptiX acceleration structure
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.29 | Mem:451.48M, Peak:468.94M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.29 | Mem:451.48M, Peak:468.94M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.30 | Mem:451.51M, Peak:468.94M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:20 Mem:249.10M (Peak 317.31M) | Time:00:01.30 | Mem:451.51M, Peak:468.94M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.30 | Mem:451.51M, Peak:468.94M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.30 | Mem:465.24M, Peak:468.94M | Scene, ViewLayer | Updating Objects Flags
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.24M, Peak:468.94M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.24M, Peak:468.94M | Scene, ViewLayer | Updating Images
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.24M, Peak:468.94M | Scene, ViewLayer | Updating Camera Volume
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.24M, Peak:468.94M | Scene, ViewLayer | Updating Lookup Tables
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Updating Lights
+Fra:20 Mem:262.83M (Peak 317.31M) | Time:00:01.31 | Mem:465.32M, Peak:468.94M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Updating Integrator
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Updating Film
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Updating Lookup Tables
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Updating Baking
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.31 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Sample 0/32
+Fra:20 Mem:262.84M (Peak 317.31M) | Time:00:01.33 | Remaining:00:00.64 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Sample 1/32
+Fra:20 Mem:278.66M (Peak 317.31M) | Time:00:03.04 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Sample 32/32
+Fra:20 Mem:278.66M (Peak 317.31M) | Time:00:03.04 | Mem:465.33M, Peak:468.94M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0020.png'
+Time: 00:03.09 (Saving: 00:00.05)
+
+UMBRELLA_FRAME 20 fall_portrait C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0020.png
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Initializing
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Waiting for render to start
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Scene
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Shaders
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Background
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes Flags
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:32 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:32 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Particle Systems
+Fra:32 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes
+Fra:32 Mem:223.15M (Peak 262.85M) | Time:00:00.00 | Mem:425.63M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:32 Mem:249.14M (Peak 262.85M) | Time:00:00.01 | Mem:425.64M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 1/3 | Building BVH
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 1/3 | Building OptiX acceleration structure
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:32 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects Flags
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Images
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera Volume
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lights
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Integrator
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Film
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Baking
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 0/32
+Fra:32 Mem:262.85M (Peak 262.85M) | Time:00:00.04 | Remaining:00:00.61 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 1/32
+Fra:32 Mem:278.67M (Peak 302.40M) | Time:00:01.86 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 32/32
+Fra:32 Mem:278.67M (Peak 302.40M) | Time:00:01.86 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0032.png'
+Time: 00:01.91 (Saving: 00:00.05)
+
+UMBRELLA_FRAME 32 fall_floor C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0032.png
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Initializing
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Waiting for render to start
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Scene
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Shaders
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Background
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes Flags
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Particle Systems
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes
+Fra:65 Mem:223.15M (Peak 262.85M) | Time:00:00.00 | Mem:425.63M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:65 Mem:249.14M (Peak 262.85M) | Time:00:00.01 | Mem:425.64M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building OptiX acceleration structure
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:65 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects Flags
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Images
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera Volume
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lights
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Integrator
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Film
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Baking
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 0/32
+Fra:65 Mem:262.85M (Peak 262.85M) | Time:00:00.04 | Remaining:00:00.61 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 1/32
+Fra:65 Mem:278.67M (Peak 302.40M) | Time:00:01.71 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 32/32
+Fra:65 Mem:278.67M (Peak 302.40M) | Time:00:01.71 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0065.png'
+Time: 00:01.76 (Saving: 00:00.05)
+
+UMBRELLA_FRAME 65 fall_floor C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0065.png
+Fra:82 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:82 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 curved photographic backdrop
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Initializing
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Waiting for render to start
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Scene
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Shaders
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Background
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes Flags
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Particle Systems
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes
+Fra:82 Mem:223.14M (Peak 262.85M) | Time:00:00.00 | Mem:425.63M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:82 Mem:249.14M (Peak 262.85M) | Time:00:00.01 | Mem:425.64M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building OptiX acceleration structure
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:82 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects Flags
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Images
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera Volume
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lights
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Integrator
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Film
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Baking
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 0/32
+Fra:82 Mem:262.84M (Peak 262.85M) | Time:00:00.04 | Remaining:00:00.58 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 1/32
+Fra:82 Mem:278.66M (Peak 302.40M) | Time:00:02.14 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 32/32
+Fra:82 Mem:278.66M (Peak 302.40M) | Time:00:02.14 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0082.png'
+Time: 00:02.20 (Saving: 00:00.06)
+
+UMBRELLA_FRAME 82 tip_macro C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0082.png
+Fra:104 Mem:262.84M (Peak 262.84M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:104 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 curved photographic backdrop
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Initializing
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Waiting for render to start
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Scene
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Shaders
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Background
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes Flags
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Particle Systems
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes
+Fra:104 Mem:223.14M (Peak 262.85M) | Time:00:00.00 | Mem:425.63M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:104 Mem:249.14M (Peak 262.85M) | Time:00:00.01 | Mem:425.64M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building OptiX acceleration structure
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:104 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Objects Flags
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Images
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Camera Volume
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lights
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Integrator
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Film
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Baking
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Sample 0/32
+Fra:104 Mem:262.84M (Peak 262.85M) | Time:00:00.04 | Remaining:00:00.62 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Sample 1/32
+Fra:104 Mem:278.66M (Peak 302.40M) | Time:00:01.80 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Sample 32/32
+Fra:104 Mem:278.66M (Peak 302.40M) | Time:00:01.80 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0104.png'
+Time: 00:01.86 (Saving: 00:00.06)
+
+UMBRELLA_FRAME 104 tip_macro C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0104.png
+Fra:118 Mem:262.84M (Peak 262.84M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:118 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Initializing
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Waiting for render to start
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Scene
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Shaders
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Background
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Camera
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Meshes Flags
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Objects
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Particle Systems
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:465.32M, Peak:465.32M | Scene, ViewLayer | Updating Meshes
+Fra:118 Mem:223.14M (Peak 262.85M) | Time:00:00.00 | Mem:425.63M, Peak:465.32M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:118 Mem:249.14M (Peak 262.85M) | Time:00:00.01 | Mem:425.64M, Peak:465.32M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.32M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.59M, Peak:465.32M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:451.57M, Peak:465.32M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building OptiX acceleration structure
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.57M, Peak:465.32M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.57M, Peak:465.32M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.32M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:118 Mem:249.11M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.32M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:451.59M, Peak:465.32M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects Flags
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Images
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera Volume
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lights
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Integrator
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Film
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Lookup Tables
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Baking
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 0/32
+Fra:118 Mem:262.84M (Peak 262.85M) | Time:00:00.05 | Remaining:00:00.68 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 1/32
+Fra:118 Mem:278.66M (Peak 302.40M) | Time:00:01.88 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Sample 32/32
+Fra:118 Mem:278.66M (Peak 302.40M) | Time:00:01.88 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0118.png'
+Time: 00:01.94 (Saving: 00:00.06)
+
+UMBRELLA_FRAME 118 tip_macro C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0118.png
+Fra:124 Mem:253.14M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Canopy
+Fra:124 Mem:253.14M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_00
+Fra:124 Mem:253.45M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_00
+Fra:124 Mem:253.59M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_01
+Fra:124 Mem:253.67M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_01
+Fra:124 Mem:253.74M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_02
+Fra:124 Mem:254.25M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_02
+Fra:124 Mem:254.33M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_03
+Fra:124 Mem:254.40M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_03
+Fra:124 Mem:256.79M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_04
+Fra:124 Mem:256.87M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_04
+Fra:124 Mem:256.94M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_05
+Fra:124 Mem:257.01M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_05
+Fra:124 Mem:257.09M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_06
+Fra:124 Mem:257.16M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_06
+Fra:124 Mem:257.71M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Rib_07
+Fra:124 Mem:257.78M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | Seam_07
+Fra:124 Mem:257.85M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | SewnHem
+Fra:124 Mem:261.32M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | FlatFelledSeamAllowances_8mm
+Fra:124 Mem:261.32M (Peak 264.94M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | TwinNeedleThreads
+Fra:124 Mem:270.99M (Peak 272.12M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:124 Mem:270.99M (Peak 272.12M) | Time:00:00.03 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:124 Mem:266.02M (Peak 326.06M) | Time:00:00.11 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Initializing
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Waiting for render to start
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Scene
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Shaders
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Background
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Camera
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Meshes Flags
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects
+Fra:124 Mem:257.44M (Peak 326.06M) | Time:00:00.12 | Mem:465.33M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:124 Mem:257.42M (Peak 326.06M) | Time:00:00.12 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:124 Mem:257.42M (Peak 326.06M) | Time:00:00.12 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Particle Systems
+Fra:124 Mem:257.42M (Peak 326.06M) | Time:00:00.12 | Mem:465.32M, Peak:465.33M | Scene, ViewLayer | Updating Meshes
+Fra:124 Mem:223.13M (Peak 326.06M) | Time:00:00.12 | Mem:425.62M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:124 Mem:249.13M (Peak 326.06M) | Time:00:00.13 | Mem:425.63M, Peak:465.33M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.14 | Mem:451.58M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Cube.001 46/46 | Building BVH
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.14 | Mem:451.58M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 11/46 | Building BVH
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.14 | Mem:451.42M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 15/46 | Building BVH
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.14 | Mem:450.98M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building BVH
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.14 | Mem:449.07M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building OptiX acceleration structure
+Fra:124 Mem:254.21M (Peak 326.06M) | Time:00:00.15 | Mem:447.16M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building BVH
+Fra:124 Mem:254.21M (Peak 326.06M) | Time:00:00.15 | Mem:447.14M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building OptiX acceleration structure
+Fra:124 Mem:254.20M (Peak 326.06M) | Time:00:00.15 | Mem:447.05M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building BVH
+Fra:124 Mem:254.20M (Peak 326.06M) | Time:00:00.15 | Mem:447.09M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building OptiX acceleration structure
+Fra:124 Mem:254.19M (Peak 326.06M) | Time:00:00.15 | Mem:447.09M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Seam_00Curve 18/46 | Building BVH
+Fra:124 Mem:254.19M (Peak 326.06M) | Time:00:00.15 | Mem:447.15M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Seam_00Curve 18/46 | Building OptiX acceleration structure
+Fra:124 Mem:254.19M (Peak 326.06M) | Time:00:00.15 | Mem:447.07M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 19/46 | Building BVH
+Fra:124 Mem:254.19M (Peak 326.06M) | Time:00:00.15 | Mem:447.09M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 19/46 | Building OptiX acceleration structure
+Fra:124 Mem:254.30M (Peak 326.06M) | Time:00:00.15 | Mem:447.17M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building BVH
+Fra:124 Mem:254.30M (Peak 326.06M) | Time:00:00.15 | Mem:447.19M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building OptiX acceleration structure
+Fra:124 Mem:254.30M (Peak 326.06M) | Time:00:00.16 | Mem:447.17M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building BVH
+Fra:124 Mem:254.30M (Peak 326.06M) | Time:00:00.16 | Mem:449.14M, Peak:465.33M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.60M (Peak 326.06M) | Time:00:00.17 | Mem:449.00M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 22/46 | Building BVH
+Fra:124 Mem:249.60M (Peak 326.06M) | Time:00:00.17 | Mem:449.00M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 22/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.61M (Peak 326.06M) | Time:00:00.18 | Mem:448.97M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 23/46 | Building BVH
+Fra:124 Mem:249.61M (Peak 326.06M) | Time:00:00.18 | Mem:449.86M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 23/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.45M (Peak 326.06M) | Time:00:00.18 | Mem:448.99M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building BVH
+Fra:124 Mem:249.45M (Peak 326.06M) | Time:00:00.18 | Mem:449.08M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.18 | Mem:449.00M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building BVH
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.18 | Mem:449.01M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.18 | Mem:448.99M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 26/46 | Building BVH
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.18 | Mem:449.10M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 26/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.19 | Mem:449.02M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_04Curve 27/46 | Building BVH
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.19 | Mem:449.12M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_04Curve 27/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.19 | Mem:449.04M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building BVH
+Fra:124 Mem:249.44M (Peak 326.06M) | Time:00:00.19 | Mem:449.48M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.35M (Peak 326.06M) | Time:00:00.19 | Mem:449.04M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building BVH
+Fra:124 Mem:249.35M (Peak 326.06M) | Time:00:00.19 | Mem:449.05M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.35M (Peak 326.06M) | Time:00:00.20 | Mem:449.04M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_02Curve 30/46 | Building BVH
+Fra:124 Mem:249.35M (Peak 326.06M) | Time:00:00.20 | Mem:449.04M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_02Curve 30/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.37M (Peak 326.06M) | Time:00:00.20 | Mem:449.05M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building BVH
+Fra:124 Mem:249.37M (Peak 326.06M) | Time:00:00.20 | Mem:449.11M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.36M (Peak 326.06M) | Time:00:00.20 | Mem:449.08M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_07Curve 31/46 | Building BVH
+Fra:124 Mem:249.36M (Peak 326.06M) | Time:00:00.20 | Mem:449.08M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_07Curve 31/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.38M (Peak 326.06M) | Time:00:00.20 | Mem:449.12M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building BVH
+Fra:124 Mem:249.38M (Peak 326.06M) | Time:00:00.20 | Mem:449.17M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.37M (Peak 326.06M) | Time:00:00.20 | Mem:449.07M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building BVH
+Fra:124 Mem:249.37M (Peak 326.06M) | Time:00:00.20 | Mem:449.56M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.26M (Peak 326.06M) | Time:00:00.20 | Mem:449.09M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_03Curve 34/46 | Building BVH
+Fra:124 Mem:249.26M (Peak 326.06M) | Time:00:00.20 | Mem:449.12M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_03Curve 34/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.27M (Peak 326.06M) | Time:00:00.21 | Mem:449.09M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building BVH
+Fra:124 Mem:249.27M (Peak 326.06M) | Time:00:00.21 | Mem:449.10M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.28M (Peak 326.06M) | Time:00:00.21 | Mem:449.13M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building BVH
+Fra:124 Mem:249.28M (Peak 326.06M) | Time:00:00.21 | Mem:449.18M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.27M (Peak 326.06M) | Time:00:00.21 | Mem:449.08M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building BVH
+Fra:124 Mem:249.27M (Peak 326.06M) | Time:00:00.21 | Mem:449.17M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.25M (Peak 326.06M) | Time:00:00.21 | Mem:449.11M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building BVH
+Fra:124 Mem:249.25M (Peak 326.06M) | Time:00:00.21 | Mem:449.13M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.25M (Peak 326.06M) | Time:00:00.22 | Mem:449.09M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building BVH
+Fra:124 Mem:249.25M (Peak 326.06M) | Time:00:00.22 | Mem:449.04M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.30M (Peak 326.06M) | Time:00:00.22 | Mem:449.17M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 40/46 | Building BVH
+Fra:124 Mem:249.30M (Peak 326.06M) | Time:00:00.22 | Mem:449.17M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 40/46 | Building OptiX acceleration structure
+Fra:124 Mem:251.27M (Peak 326.06M) | Time:00:00.22 | Mem:451.06M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_02Curve 41/46 | Building BVH
+Fra:124 Mem:251.27M (Peak 326.06M) | Time:00:00.22 | Mem:451.16M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Rib_02Curve 41/46 | Building OptiX acceleration structure
+Fra:124 Mem:251.27M (Peak 326.06M) | Time:00:00.22 | Mem:451.07M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_03Curve 42/46 | Building BVH
+Fra:124 Mem:251.27M (Peak 326.06M) | Time:00:00.22 | Mem:451.12M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_03Curve 42/46 | Building OptiX acceleration structure
+Fra:124 Mem:251.28M (Peak 326.06M) | Time:00:00.23 | Mem:451.09M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_01Curve 43/46 | Building BVH
+Fra:124 Mem:251.28M (Peak 326.06M) | Time:00:00.23 | Mem:451.09M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH Seam_01Curve 43/46 | Building OptiX acceleration structure
+Fra:124 Mem:251.29M (Peak 326.06M) | Time:00:00.23 | Mem:451.11M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building BVH
+Fra:124 Mem:251.29M (Peak 326.06M) | Time:00:00.23 | Mem:451.11M, Peak:466.79M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building OptiX acceleration structure
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.27 | Mem:450.66M, Peak:466.79M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.27 | Mem:450.66M, Peak:466.79M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.27 | Mem:450.67M, Peak:466.79M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:124 Mem:249.10M (Peak 326.06M) | Time:00:00.27 | Mem:450.67M, Peak:466.79M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.27 | Mem:450.67M, Peak:466.79M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Objects Flags
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Images
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Camera Volume
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Lookup Tables
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Lights
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Integrator
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Film
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Lookup Tables
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Baking
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.28 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Sample 0/32
+Fra:124 Mem:262.83M (Peak 326.06M) | Time:00:00.43 | Remaining:00:04.67 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Sample 1/32
+Fra:124 Mem:278.66M (Peak 326.06M) | Time:00:02.12 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Sample 32/32
+Fra:124 Mem:278.66M (Peak 326.06M) | Time:00:02.12 | Mem:464.40M, Peak:466.79M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0124.png'
+Time: 00:02.17 (Saving: 00:00.04)
+
+UMBRELLA_FRAME 124 snap_open C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0124.png
+Fra:132 Mem:253.13M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Rib_00
+Fra:132 Mem:253.14M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Canopy
+Fra:132 Mem:253.44M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_00
+Fra:132 Mem:253.64M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_00
+Fra:132 Mem:253.59M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Rib_01
+Fra:132 Mem:253.64M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_01
+Fra:132 Mem:253.72M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_01
+Fra:132 Mem:253.72M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Tip_01
+Fra:132 Mem:253.78M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_02
+Fra:132 Mem:254.29M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Rib_03
+Fra:132 Mem:254.36M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_02
+Fra:132 Mem:254.36M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_03
+Fra:132 Mem:254.43M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_03
+Fra:132 Mem:256.77M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Tip_03
+Fra:132 Mem:256.85M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_04
+Fra:132 Mem:256.42M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_04
+Fra:132 Mem:256.41M (Peak 264.93M) | Time:00:00.01 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Tip_04
+Fra:132 Mem:256.95M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_05
+Fra:132 Mem:257.03M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_05
+Fra:132 Mem:257.04M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Rib_06
+Fra:132 Mem:257.09M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_06
+Fra:132 Mem:257.17M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Rib_07
+Fra:132 Mem:257.18M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_06
+Fra:132 Mem:257.22M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Tip_06
+Fra:132 Mem:260.05M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Seam_07
+Fra:132 Mem:260.13M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | SewnHem
+Fra:132 Mem:260.23M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Stretcher_07
+Fra:132 Mem:260.51M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Tip_07
+Fra:132 Mem:263.86M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | Shaft
+Fra:132 Mem:263.87M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | TopFerrule
+Fra:132 Mem:263.87M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | JHandle
+Fra:132 Mem:263.80M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | TwinNeedleThreads
+Fra:132 Mem:263.80M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | FlatFelledSeamAllowances_8mm
+Fra:132 Mem:264.65M (Peak 264.93M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | CrownTextileReinforcement
+Fra:132 Mem:285.85M (Peak 286.99M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:132 Mem:285.85M (Peak 286.99M) | Time:00:00.02 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:132 Mem:265.50M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Initializing
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Waiting for render to start
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Scene
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Shaders
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Background
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Camera
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Meshes Flags
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Objects
+Fra:132 Mem:257.28M (Peak 325.55M) | Time:00:00.08 | Mem:464.40M, Peak:464.40M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:132 Mem:257.29M (Peak 325.55M) | Time:00:00.08 | Mem:464.41M, Peak:464.41M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:132 Mem:257.29M (Peak 325.55M) | Time:00:00.08 | Mem:464.41M, Peak:464.41M | Scene, ViewLayer | Updating Particle Systems
+Fra:132 Mem:257.29M (Peak 325.55M) | Time:00:00.08 | Mem:464.41M, Peak:464.41M | Scene, ViewLayer | Updating Meshes
+Fra:132 Mem:223.15M (Peak 325.55M) | Time:00:00.08 | Mem:424.71M, Peak:464.41M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:132 Mem:249.14M (Peak 325.55M) | Time:00:00.09 | Mem:424.72M, Peak:464.41M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.10 | Mem:450.68M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Cube.001 46/46 | Building BVH
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.10 | Mem:450.68M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 14/46 | Building BVH
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.10 | Mem:450.65M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Seam_03Curve 15/46 | Building BVH
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.10 | Mem:448.64M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building BVH
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.10 | Mem:448.63M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building OptiX acceleration structure
+Fra:132 Mem:252.20M (Peak 325.55M) | Time:00:00.10 | Mem:442.17M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building BVH
+Fra:132 Mem:252.20M (Peak 325.55M) | Time:00:00.10 | Mem:442.22M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.08M (Peak 325.55M) | Time:00:00.10 | Mem:447.01M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building BVH
+Fra:132 Mem:254.08M (Peak 325.55M) | Time:00:00.10 | Mem:446.99M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.07M (Peak 325.55M) | Time:00:00.10 | Mem:446.90M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building BVH
+Fra:132 Mem:254.07M (Peak 325.55M) | Time:00:00.10 | Mem:446.92M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.07M (Peak 325.55M) | Time:00:00.10 | Mem:446.92M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 18/46 | Building BVH
+Fra:132 Mem:254.07M (Peak 325.55M) | Time:00:00.10 | Mem:446.92M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 18/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.09M (Peak 325.55M) | Time:00:00.10 | Mem:446.92M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Rib_01Curve 19/46 | Building BVH
+Fra:132 Mem:254.09M (Peak 325.55M) | Time:00:00.10 | Mem:446.97M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Rib_01Curve 19/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.09M (Peak 325.55M) | Time:00:00.11 | Mem:446.99M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building BVH
+Fra:132 Mem:254.09M (Peak 325.55M) | Time:00:00.11 | Mem:447.03M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.09M (Peak 325.55M) | Time:00:00.11 | Mem:446.94M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building BVH
+Fra:132 Mem:254.09M (Peak 325.55M) | Time:00:00.11 | Mem:447.43M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building OptiX acceleration structure
+Fra:132 Mem:253.98M (Peak 325.55M) | Time:00:00.11 | Mem:446.95M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 22/46 | Building BVH
+Fra:132 Mem:253.98M (Peak 325.55M) | Time:00:00.11 | Mem:446.97M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 22/46 | Building OptiX acceleration structure
+Fra:132 Mem:254.00M (Peak 325.55M) | Time:00:00.11 | Mem:446.97M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 23/46 | Building BVH
+Fra:132 Mem:254.00M (Peak 325.55M) | Time:00:00.11 | Mem:446.99M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 23/46 | Building OptiX acceleration structure
+Fra:132 Mem:253.99M (Peak 325.55M) | Time:00:00.11 | Mem:447.00M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building BVH
+Fra:132 Mem:253.99M (Peak 325.55M) | Time:00:00.11 | Mem:447.02M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building OptiX acceleration structure
+Fra:132 Mem:253.99M (Peak 325.55M) | Time:00:00.11 | Mem:447.02M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building BVH
+Fra:132 Mem:253.99M (Peak 325.55M) | Time:00:00.11 | Mem:447.08M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building OptiX acceleration structure
+Fra:132 Mem:253.98M (Peak 325.55M) | Time:00:00.11 | Mem:447.08M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 26/46 | Building BVH
+Fra:132 Mem:253.98M (Peak 325.55M) | Time:00:00.11 | Mem:447.08M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 26/46 | Building OptiX acceleration structure
+Fra:132 Mem:255.94M (Peak 325.55M) | Time:00:00.11 | Mem:448.96M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 27/46 | Building BVH
+Fra:132 Mem:255.94M (Peak 325.55M) | Time:00:00.11 | Mem:449.06M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 27/46 | Building OptiX acceleration structure
+Fra:132 Mem:255.94M (Peak 325.55M) | Time:00:00.11 | Mem:448.98M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building BVH
+Fra:132 Mem:255.94M (Peak 325.55M) | Time:00:00.11 | Mem:448.98M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building OptiX acceleration structure
+Fra:132 Mem:255.95M (Peak 325.55M) | Time:00:00.11 | Mem:448.98M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building BVH
+Fra:132 Mem:255.95M (Peak 325.55M) | Time:00:00.11 | Mem:449.08M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building OptiX acceleration structure
+Fra:132 Mem:255.93M (Peak 325.55M) | Time:00:00.11 | Mem:448.98M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building BVH
+Fra:132 Mem:255.93M (Peak 325.55M) | Time:00:00.11 | Mem:450.95M, Peak:464.41M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.12 | Mem:450.33M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 30/46 | Building BVH
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.12 | Mem:450.38M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 30/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.12 | Mem:450.35M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 31/46 | Building BVH
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.12 | Mem:450.38M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 31/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.25M (Peak 325.55M) | Time:00:00.13 | Mem:450.37M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building BVH
+Fra:132 Mem:251.25M (Peak 325.55M) | Time:00:00.13 | Mem:450.47M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.13 | Mem:450.37M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building BVH
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.13 | Mem:450.47M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.37M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 34/46 | Building BVH
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.43M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 34/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.13 | Mem:450.39M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building BVH
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.13 | Mem:450.41M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.13 | Mem:450.50M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building BVH
+Fra:132 Mem:251.24M (Peak 325.55M) | Time:00:00.13 | Mem:450.49M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.39M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building BVH
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.40M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.39M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building BVH
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.43M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.40M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building BVH
+Fra:132 Mem:251.23M (Peak 325.55M) | Time:00:00.13 | Mem:450.35M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building OptiX acceleration structure
+Fra:132 Mem:251.28M (Peak 325.55M) | Time:00:00.13 | Mem:450.38M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 40/46 | Building BVH
+Fra:132 Mem:251.28M (Peak 325.55M) | Time:00:00.13 | Mem:450.38M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 40/46 | Building OptiX acceleration structure
+Fra:132 Mem:249.47M (Peak 325.55M) | Time:00:00.14 | Mem:450.11M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Rib_02Curve 41/46 | Building BVH
+Fra:132 Mem:249.47M (Peak 325.55M) | Time:00:00.14 | Mem:450.21M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Rib_02Curve 41/46 | Building OptiX acceleration structure
+Fra:132 Mem:249.47M (Peak 325.55M) | Time:00:00.14 | Mem:450.13M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Seam_02Curve 42/46 | Building BVH
+Fra:132 Mem:249.47M (Peak 325.55M) | Time:00:00.14 | Mem:450.18M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH Seam_02Curve 42/46 | Building OptiX acceleration structure
+Fra:132 Mem:249.48M (Peak 325.55M) | Time:00:00.14 | Mem:450.16M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 43/46 | Building BVH
+Fra:132 Mem:249.48M (Peak 325.55M) | Time:00:00.14 | Mem:450.16M, Peak:468.18M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 43/46 | Building OptiX acceleration structure
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.16 | Mem:450.31M, Peak:468.18M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.16 | Mem:450.31M, Peak:468.18M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.16 | Mem:450.33M, Peak:468.18M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:132 Mem:249.11M (Peak 325.55M) | Time:00:00.16 | Mem:450.33M, Peak:468.18M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:450.33M, Peak:468.18M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Objects Flags
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Images
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Camera Volume
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Lookup Tables
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Lights
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.06M, Peak:468.18M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Integrator
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.16 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Film
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.17 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Lookup Tables
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.17 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Baking
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.17 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.17 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Sample 0/32
+Fra:132 Mem:262.85M (Peak 325.55M) | Time:00:00.22 | Remaining:00:01.54 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Sample 1/32
+Fra:132 Mem:278.67M (Peak 325.55M) | Time:00:02.00 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Sample 32/32
+Fra:132 Mem:278.67M (Peak 325.55M) | Time:00:02.00 | Mem:464.07M, Peak:468.18M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0132.png'
+Time: 00:02.05 (Saving: 00:00.04)
+
+UMBRELLA_FRAME 132 snap_open C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0132.png
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 curved photographic backdrop
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Initializing
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Waiting for render to start
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Scene
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Shaders
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Background
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes Flags
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes
+Fra:148 Mem:223.15M (Peak 262.85M) | Time:00:00.00 | Mem:424.37M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:148 Mem:249.14M (Peak 262.85M) | Time:00:00.00 | Mem:424.38M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building OptiX acceleration structure
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:148 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects Flags
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Images
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera Volume
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lights
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Integrator
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Film
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Baking
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 0/32
+Fra:148 Mem:262.85M (Peak 262.85M) | Time:00:00.04 | Remaining:00:00.63 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 1/32
+Fra:148 Mem:278.67M (Peak 302.40M) | Time:00:01.68 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 32/32
+Fra:148 Mem:278.67M (Peak 302.40M) | Time:00:01.68 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0148.png'
+Time: 00:01.74 (Saving: 00:00.05)
+
+UMBRELLA_FRAME 148 snap_open C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0148.png
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 curved photographic backdrop
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Initializing
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Waiting for render to start
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Scene
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Shaders
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Background
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes Flags
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes
+Fra:175 Mem:223.15M (Peak 262.85M) | Time:00:00.00 | Mem:424.37M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:175 Mem:249.14M (Peak 262.85M) | Time:00:00.00 | Mem:424.38M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building OptiX acceleration structure
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:175 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects Flags
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Images
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera Volume
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lights
+Fra:175 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Integrator
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Film
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Baking
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 0/32
+Fra:175 Mem:262.85M (Peak 262.85M) | Time:00:00.05 | Remaining:00:00.76 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 1/32
+Fra:175 Mem:278.67M (Peak 302.40M) | Time:00:02.16 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 32/32
+Fra:175 Mem:278.67M (Peak 302.40M) | Time:00:02.16 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0175.png'
+Time: 00:02.22 (Saving: 00:00.05)
+
+UMBRELLA_FRAME 175 printed_brand C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0175.png
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 curved photographic backdrop
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Initializing
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Waiting for render to start
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Scene
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Shaders
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Background
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes Flags
+Fra:200 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects
+Fra:200 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:200 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:200 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:200 Mem:262.84M (Peak 262.85M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes
+Fra:200 Mem:223.15M (Peak 262.85M) | Time:00:00.00 | Mem:424.37M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:200 Mem:249.14M (Peak 262.85M) | Time:00:00.01 | Mem:424.38M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Cube.001 3/3 | Building BVH
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 1/3 | Building BVH
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building OptiX acceleration structure
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:200 Mem:249.11M (Peak 262.85M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects Flags
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Images
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera Volume
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lights
+Fra:200 Mem:262.84M (Peak 262.85M) | Time:00:00.02 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Integrator
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Film
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Baking
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 0/32
+Fra:200 Mem:262.85M (Peak 262.85M) | Time:00:00.05 | Remaining:00:00.75 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 1/32
+Fra:200 Mem:278.67M (Peak 302.40M) | Time:00:01.95 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 32/32
+Fra:200 Mem:278.67M (Peak 302.40M) | Time:00:01.95 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0200.png'
+Time: 00:02.00 (Saving: 00:00.04)
+
+UMBRELLA_FRAME 200 printed_brand C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0200.png
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 floor z0
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Initializing
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Waiting for render to start
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Scene
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Shaders
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Background
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes Flags
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes
+Fra:240 Mem:223.21M (Peak 262.91M) | Time:00:00.00 | Mem:424.37M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:240 Mem:249.21M (Peak 262.91M) | Time:00:00.00 | Mem:424.38M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:240 Mem:249.18M (Peak 262.91M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building BVH
+Fra:240 Mem:249.18M (Peak 262.91M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 2/3 | Building OptiX acceleration structure
+Fra:240 Mem:249.18M (Peak 262.91M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:240 Mem:249.18M (Peak 262.91M) | Time:00:00.01 | Mem:450.31M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:240 Mem:249.18M (Peak 262.91M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:240 Mem:249.18M (Peak 262.91M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.01 | Mem:450.33M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects Flags
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Images
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera Volume
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lights
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Integrator
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Film
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Lookup Tables
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Baking
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.02 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 0/32
+Fra:240 Mem:262.91M (Peak 262.91M) | Time:00:00.04 | Remaining:00:00.68 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 1/32
+Fra:240 Mem:278.73M (Peak 302.47M) | Time:00:01.81 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Sample 32/32
+Fra:240 Mem:278.73M (Peak 302.47M) | Time:00:01.81 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0240.png'
+Time: 00:01.86 (Saving: 00:00.04)
+
+UMBRELLA_FRAME 240 hero C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0240.png
+Fra:320 Mem:262.91M (Peak 262.91M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 tall background shadow flag
+Fra:320 Mem:262.92M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Synchronizing object | V6 curved photographic backdrop
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Initializing
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Waiting for render to start
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Scene
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Shaders
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Background
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Camera
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Meshes Flags
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects
+Fra:320 Mem:262.91M (Peak 262.92M) | Time:00:00.00 | Mem:464.07M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.00 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.00 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Particle Systems
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.00 | Mem:464.06M, Peak:464.07M | Scene, ViewLayer | Updating Meshes
+Fra:320 Mem:223.20M (Peak 262.92M) | Time:00:00.00 | Mem:424.36M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:320 Mem:249.19M (Peak 262.92M) | Time:00:00.00 | Mem:424.37M, Peak:464.07M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.01 | Mem:450.32M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Cube.001 46/46 | Building BVH
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.01 | Mem:450.32M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Seam_03Curve 15/46 | Refitting BVH
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.01 | Mem:450.30M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH FlatFelledSeamAllowances_8mmMesh 14/46 | Building OptiX acceleration structure
+Fra:320 Mem:249.25M (Peak 262.92M) | Time:00:00.01 | Mem:450.26M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Refitting BVH
+Fra:320 Mem:249.25M (Peak 262.92M) | Time:00:00.01 | Mem:450.28M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH CanopyMesh 1/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:448.91M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Refitting BVH
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:448.93M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Stretcher_03Mesh 16/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:448.91M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Refitting BVH
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:448.95M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Tip_03Mesh 17/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.12M (Peak 262.92M) | Time:00:00.01 | Mem:449.01M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 18/46 | Refitting BVH
+Fra:320 Mem:254.12M (Peak 262.92M) | Time:00:00.01 | Mem:449.01M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Seam_05Curve 18/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.12M (Peak 262.92M) | Time:00:00.01 | Mem:448.91M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Rib_01Curve 19/46 | Refitting BVH
+Fra:320 Mem:254.12M (Peak 262.92M) | Time:00:00.01 | Mem:448.96M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Rib_01Curve 19/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:448.92M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Refitting BVH
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:448.93M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Stretcher_04Mesh 20/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:449.40M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Refitting BVH
+Fra:320 Mem:254.13M (Peak 262.92M) | Time:00:00.01 | Mem:449.40M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Tip_04Mesh 21/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.01 | Mem:448.95M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 22/46 | Refitting BVH
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.01 | Mem:449.01M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Seam_07Curve 22/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.02 | Mem:448.92M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 23/46 | Refitting BVH
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.02 | Mem:448.92M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH CrownTextileReinforcementMesh 23/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.02 | Mem:448.91M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building BVH
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.02 | Mem:448.96M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH V6 curved photographic backdrop mesh 45/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.02 | Mem:448.91M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Refitting BVH
+Fra:320 Mem:254.03M (Peak 262.92M) | Time:00:00.02 | Mem:449.02M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Stretcher_05Mesh 24/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.02M (Peak 262.92M) | Time:00:00.02 | Mem:448.95M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Refitting BVH
+Fra:320 Mem:254.02M (Peak 262.92M) | Time:00:00.02 | Mem:449.01M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Tip_05Mesh 25/46 | Building OptiX acceleration structure
+Fra:320 Mem:254.00M (Peak 262.92M) | Time:00:00.02 | Mem:448.96M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 26/46 | Refitting BVH
+Fra:320 Mem:254.00M (Peak 262.92M) | Time:00:00.02 | Mem:448.96M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH TwinNeedleThreads 26/46 | Building OptiX acceleration structure
+Fra:320 Mem:255.97M (Peak 262.92M) | Time:00:00.02 | Mem:447.38M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 27/46 | Refitting BVH
+Fra:320 Mem:255.97M (Peak 262.92M) | Time:00:00.02 | Mem:447.38M, Peak:464.07M | Scene, ViewLayer | Updating Geometry BVH Rib_05Curve 27/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.33M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Refitting BVH
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.39M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Stretcher_06Mesh 28/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Refitting BVH
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.31M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Tip_06Mesh 29/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.33M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 30/46 | Refitting BVH
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.33M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Seam_06Curve 30/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.29M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 31/46 | Refitting BVH
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.31M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Rib_04Curve 31/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.30M (Peak 262.92M) | Time:00:00.02 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Refitting BVH
+Fra:320 Mem:251.30M (Peak 262.92M) | Time:00:00.02 | Mem:451.39M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Stretcher_07Mesh 32/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Refitting BVH
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.38M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Tip_07Mesh 33/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 34/46 | Refitting BVH
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.33M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Rib_06Curve 34/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.30M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Refitting BVH
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.30M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH ShaftMesh 35/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Refitting BVH
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.02 | Mem:451.32M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH CrownHubMesh 36/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Refitting BVH
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.02 | Mem:451.30M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH TopFerruleMesh 37/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.03 | Mem:451.27M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Refitting BVH
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.03 | Mem:451.28M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH RunnerMesh 38/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.03 | Mem:451.27M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building BVH
+Fra:320 Mem:251.29M (Peak 262.92M) | Time:00:00.03 | Mem:451.32M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH V6 floor z0 mesh 44/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.03 | Mem:451.29M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Refitting BVH
+Fra:320 Mem:251.28M (Peak 262.92M) | Time:00:00.03 | Mem:451.29M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH JHandleCurve 39/46 | Building OptiX acceleration structure
+Fra:320 Mem:251.33M (Peak 262.92M) | Time:00:00.03 | Mem:451.26M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 40/46 | Refitting BVH
+Fra:320 Mem:251.33M (Peak 262.92M) | Time:00:00.03 | Mem:451.26M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH SewnHemCurve 40/46 | Building OptiX acceleration structure
+Fra:320 Mem:249.52M (Peak 262.92M) | Time:00:00.03 | Mem:450.77M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Rib_02Curve 41/46 | Refitting BVH
+Fra:320 Mem:249.52M (Peak 262.92M) | Time:00:00.03 | Mem:450.83M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Rib_02Curve 41/46 | Building OptiX acceleration structure
+Fra:320 Mem:249.52M (Peak 262.92M) | Time:00:00.03 | Mem:450.72M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Seam_02Curve 42/46 | Refitting BVH
+Fra:320 Mem:249.52M (Peak 262.92M) | Time:00:00.03 | Mem:450.78M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH Seam_02Curve 42/46 | Building OptiX acceleration structure
+Fra:320 Mem:249.53M (Peak 262.92M) | Time:00:00.03 | Mem:450.75M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 43/46 | Refitting BVH
+Fra:320 Mem:249.53M (Peak 262.92M) | Time:00:00.03 | Mem:450.75M, Peak:469.14M | Scene, ViewLayer | Updating Geometry BVH FoldedBiasHemBinding_6mmMesh 43/46 | Building OptiX acceleration structure
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.03 | Mem:450.76M, Peak:469.14M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.03 | Mem:450.76M, Peak:469.14M | Scene, ViewLayer | Updating Scene BVH | Building OptiX acceleration structure
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.04 | Mem:450.77M, Peak:469.14M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:320 Mem:249.16M (Peak 262.92M) | Time:00:00.04 | Mem:450.77M, Peak:469.14M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:450.77M, Peak:469.14M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Objects Flags
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Images
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Camera Volume
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Lookup Tables
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Lights
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Integrator
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Film
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Lookup Tables
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Baking
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.04 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Sample 0/32
+Fra:320 Mem:262.90M (Peak 262.92M) | Time:00:00.07 | Remaining:00:00.71 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Sample 1/32
+Fra:320 Mem:278.72M (Peak 302.45M) | Time:00:01.87 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Sample 32/32
+Fra:320 Mem:278.72M (Peak 302.45M) | Time:00:01.87 | Mem:464.50M, Peak:469.14M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0320.png'
+Time: 00:01.92 (Saving: 00:00.04)
+
+UMBRELLA_FRAME 320 hero C:\Users\eduardo.bido\Documents\ChatGPT\Umbrella Group\motion-001\v6-check\frame-0320.png
+
+Blender quit

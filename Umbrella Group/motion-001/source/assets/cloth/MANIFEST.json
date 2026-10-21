@@ -1,0 +1,70 @@
+{
+  "asset": "Terlenka",
+  "provider": "Poly Haven",
+  "source_url": "https://polyhaven.com/a/terlenka",
+  "license": "CC0 1.0 Universal",
+  "license_url": "https://polyhaven.com/license",
+  "license_deed_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "verified_date": "2026-10-16",
+  "authors": {
+    "photography": "colormass",
+    "processing": "Rico Cilliers"
+  },
+  "acquisition": "Public direct PNG map downloads; no account, API key, paid service, or scene changes.",
+  "status": "CANDIDATE: physical polyester weave source, not a certified umbrella nylon scan.",
+  "native_asset_size": "0.3m tall per official asset page",
+  "resolution": "1K",
+  "total_bytes": 13620303,
+  "maps": [
+    {
+      "role": "base_color",
+      "file": "terlenka_diff_1k.png",
+      "path": "/Users/bidotemp/Documents/Umbrella Group/Arsenal/05_BLENDER/projects/umbrella-a-b1/assets/cloth/terlenka_diff_1k.png",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/terlenka/terlenka_diff_1k.png",
+      "bytes": 5814945,
+      "sha256": "957d95ae7b5ba71f5a782c606c0a9ae11f5a1dfbb6729214f542945f453433fd",
+      "width": 1024,
+      "height": 1026,
+      "color_space": "sRGB",
+      "png_bit_depth": 16
+    },
+    {
+      "role": "normal_opengl",
+      "file": "terlenka_nor_gl_1k.png",
+      "path": "/Users/bidotemp/Documents/Umbrella Group/Arsenal/05_BLENDER/projects/umbrella-a-b1/assets/cloth/terlenka_nor_gl_1k.png",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/terlenka/terlenka_nor_gl_1k.png",
+      "bytes": 5820756,
+      "sha256": "0e37deb6bdd98c4b00b27045189452fe2d6a2e673a48b3037652d48882d82490",
+      "width": 1024,
+      "height": 1026,
+      "color_space": "Non-Color",
+      "png_bit_depth": 16
+    },
+    {
+      "role": "roughness",
+      "file": "terlenka_rough_1k.png",
+      "path": "/Users/bidotemp/Documents/Umbrella Group/Arsenal/05_BLENDER/projects/umbrella-a-b1/assets/cloth/terlenka_rough_1k.png",
+      "download_url": "https://dl.polyhaven.org/file/ph-assets/Textures/png/1k/terlenka/terlenka_rough_1k.png",
+      "bytes": 1984602,
+      "sha256": "e63446cb216202d53cde6c0c5357857c907c7663d1f8f797b6d9861fddff4089",
+      "width": 1024,
+      "height": 1026,
+      "color_space": "Non-Color",
+      "png_bit_depth": 16
+    }
+  ],
+  "usage_notes": [
+    "Use normal GL through a Normal Map node, Non-Color.",
+    "Use roughness as Non-Color; retain genuine map variation and calibrate for coated/wet umbrella response.",
+    "Diffuse is neutral beige and may be tinted purple; normal/roughness may also be used with a separate purple base color.",
+    "Keep the original map aspect ratio and physical scale; do not stretch the weave or enlarge it into visible carpet threads.",
+    "This candidate has not yet been applied to the scene or visually approved."
+  ],
+  "validation": {
+    "all_maps_fully_decoded": true,
+    "base_color_visually_inspected": true,
+    "download_size_under_30MB": true,
+    "original_pixels_unchanged": true
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "floor_z_m": 0.0,
+  "contact_clearance_m": 0.00015,
+  "fall_physical_duration_s": 0.6021526375604723,
+  "fall_editorial_duration_s": 4.9,
+  "fall_tip_heights_m": {
+    "0": 2.2,
+    "1.25": 1.619448,
+    "2.7": 0.443542928142616,
+    "3.35": 0.14395800000000047,
+    "4": 0.06515296187630848,
+    "4.9": 0.0
+  },
+  "opening_start_s": 5.0,
+  "opening_end_s": 5.3,
+  "max_tilt_deg": 29.75608548446218,
+  "impact_events_s": [
+    4.9
+  ],
+  "final_yaw_degrees": 35.0,
+  "method": "Ballistic fall; source linkage; reduced gravity/support-envelope roll with damping and small ballistic rebounds.",
+  "limitation": "Mass/inertia are shot parameters. No cloth self-collision or measured rigid-body mass model.",
+  "frames": 360,
+  "fps": 24,
+  "width": 540,
+  "height": 960,
+  "engine": "CYCLES",
+  "backend": "OPTIX",
+  "cuts_frames": [
+    0,
+    30,
+    80,
+    120,
+    164,
+    204,
+    360
+  ],
+  "shots": [
+    "fall_portrait",
+    "fall_floor",
+    "tip_macro",
+    "snap_open",
+    "printed_brand",
+    "hero"
+  ],
+  "transform_motion_blur": true
+}

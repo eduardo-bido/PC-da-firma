@@ -75,10 +75,10 @@ def area(name, loc, target, power, width, height, color=(1, 1, 1)):
 
 def studio():
     # Neutral graphite landing surface. No luminous material or painted contact.
-    floor = material('V6 graphite painted studio floor', (.022, .021, .026), .67)
+    floor = material('V6 graphite painted studio floor', (.013, .012, .018), .72)
     micro_surface(floor, 420, .00012, .22, .64, .76)
     mesh('V6 floor z0', [(-16,-20,0),(16,-20,0),(16,3.2,0),(-16,3.2,0)], [(0,1,2,3)], floor)
-    wall = material('V6 muted plum studio plaster', (.043, .022, .054), .89)
+    wall = material('V6 muted plum studio plaster', (.031, .022, .037), .90)
     micro_surface(wall, 175, .00024, .14, .85, .94)
     # A 45cm cove replaces the razor-edged plane intersection while retaining
     # a visible change in surface orientation and the floor's directional shadow.
@@ -173,13 +173,13 @@ def scene_setup(width, height, samples, engine='CYCLES'):
     world.node_tree.nodes['Background'].inputs['Strength'].default_value = .10
     bpy.context.scene.world = world
     lights = {
-        'key': area('V6 warm neutral textile strip', (2.3,-3.1,2.6), (0,0,.6), 620,.75,2.8,(1,.94,.89)),
-        'fill': area('V6 low neutral front fill', (-3,-4,2.4), (0,0,.7), 55,3,3,(.90,.94,1)),
-        'rim': area('V6 subtle violet reflected edge', (-2.1,1.2,3), (0,0,.8), 85,.48,2.6,(.83,.75,1)),
+        'key': area('V6 warm neutral textile strip', (1.3,-2.0,3.9), (0,0,.55), 700,1.65,3.0,(1,.96,.92)),
+        'fill': area('V6 low neutral front fill', (-2.4,-3.2,2.9), (0,0,.7), 58,2.8,3.1,(.90,.94,1)),
+        'rim': area('V6 subtle violet reflected edge', (-1.8,1.2,3.6), (0,0,.8), 95,.60,3.0,(.83,.75,1)),
         'ceiling': area('V6 overhead silk', (.2,.1,5), (0,0,0), 70,2.0,2.0,(1,.95,.90)),
         # Background-only key is behind the product; the physical flag gives
         # the shadow a coherent penumbra instead of a shader-painted gradient.
-        'background': area('V6 warm wall key', (-3.3,.8,4.5), (.3,3.65,1.7), 350,.08,.08,(1,.70,.43)),
+        'background': area('V6 warm wall key', (-3.1,.7,4.5), (.3,3.65,1.7), 210,.24,.34,(1,.77,.63)),
     }
     rig['_studio_lights'] = lights
     bpy.ops.object.camera_add()
@@ -207,6 +207,6 @@ def scene_setup(width, height, samples, engine='CYCLES'):
         scene.eevee.taa_render_samples = samples
     scene.view_settings.view_transform = 'AgX'
     scene.view_settings.look = 'AgX - Medium High Contrast'
-    scene.view_settings.exposure = .25
+    scene.view_settings.exposure = .08
     scene.view_settings.gamma = 1
     return rig, cam, scene

@@ -1,0 +1,51 @@
+{
+  "provider": "Microsoft Edge online Read Aloud via edge-tts 7.3.1",
+  "authorization": "User explicitly authorized a free no-account online test on 2026-10-22.",
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "rate": "+3%",
+  "text": "Você ficou cinco segundos esperando esse contato.",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 489159,
+      "duration": 2184580,
+      "text": "Você"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 2673750,
+      "duration": 3155000,
+      "text": "ficou"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 5828750,
+      "duration": 4126250,
+      "text": "cinco"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 9955000,
+      "duration": 4490410,
+      "text": "segundos"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 14445410,
+      "duration": 4975830,
+      "text": "esperando"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 19421250,
+      "duration": 1213330,
+      "text": "esse"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20634580,
+      "duration": 5218330,
+      "text": "contato"
+    }
+  ]
+}

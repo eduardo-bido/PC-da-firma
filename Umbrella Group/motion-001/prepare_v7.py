@@ -22,7 +22,7 @@ def build():
         if cue['text']=='Umbrella.':continue # The brand title is the caption here.
         display_end=duration-.04 if cue is meta['cues'][-1] else cue['end']
         text=cue['text'].replace('cinco segundos','<em>cinco segundos</em>').replace('conquistar clientes.','<em>conquistar clientes.</em>')
-        # Phrase boundaries are exact generated audio boundaries.
+        # Selected voice: service WordBoundary offsets, grouped into phrases.
         captions.append(f'''<div id="{cue['id']}" class="clip caption" data-start="{cue['start']}" data-duration="{display_end-cue['start']:.5f}"><div class="caption-text">{text}</div></div>''')
     brand=next(c for c in meta['cues'] if c['text']=='Umbrella.')
     (PROJECT/'index.html').write_text(f'''<!doctype html>
@@ -56,7 +56,7 @@ def media(frames,ffmpeg,meta):
     # No cropping, digital zoom, reverse playback or camera cuts in finishing.
     subprocess.run([ffmpeg,'-hide_banner','-loglevel','error','-y','-framerate','24',
                     '-i',str(frames/'frame-%04d.png'),'-frames:v',str(round(meta['duration']*24)),
-                    '-c:v','libx264','-crf','15','-pix_fmt','yuv420p','-vf',
+                    '-c:v','libx264','-crf','15','-g','24','-keyint_min','24','-sc_threshold','0','-pix_fmt','yuv420p','-vf',
                     'scale=1080:1920:flags=lanczos:out_color_matrix=bt709:out_range=tv,setparams=range=limited:color_primaries=bt709:color_trc=bt709:colorspace=bt709',
                     '-movflags','+faststart',str(ASSETS/'continuous-take.mp4')],check=True)
     import assemble_v6

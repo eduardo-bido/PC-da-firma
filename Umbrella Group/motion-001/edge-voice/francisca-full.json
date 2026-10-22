@@ -1,0 +1,135 @@
+{
+  "provider": "Microsoft Edge online Read Aloud via edge-tts 7.3.1",
+  "authorization": "User explicitly authorized a free no-account online test on 2026-10-22.",
+  "voice": "pt-BR-FranciscaNeural",
+  "rate": "+3%",
+  "text": "Você ficou cinco segundos esperando esse contato. Seu posicionamento precisa prender atenção e conquistar clientes. Umbrella. Conheça a Umbrella no perfil.",
+  "boundaries": [
+    {
+      "type": "WordBoundary",
+      "offset": 985410,
+      "duration": 2670000,
+      "text": "Você"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 3776660,
+      "duration": 3155410,
+      "text": "ficou"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 7053330,
+      "duration": 3034160,
+      "text": "cinco"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 10208750,
+      "duration": 4732910,
+      "text": "segundos"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 15062910,
+      "duration": 5461250,
+      "text": "esperando"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 20645830,
+      "duration": 1577500,
+      "text": "esse"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 22344580,
+      "duration": 5703750,
+      "text": "contato"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 30582500,
+      "duration": 2791250,
+      "text": "Seu"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 33495000,
+      "duration": 8131250,
+      "text": "posicionamento"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 41747500,
+      "duration": 4247500,
+      "text": "precisa"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46116660,
+      "duration": 3276660,
+      "text": "prender"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 49514580,
+      "duration": 5461250,
+      "text": "atenção"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55097080,
+      "duration": 485409,
+      "text": "e"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 55703750,
+      "duration": 5340000,
+      "text": "conquistar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 61165000,
+      "duration": 6674580,
+      "text": "clientes"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 70388330,
+      "duration": 5825410,
+      "text": "Umbrella"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78762080,
+      "duration": 4732910,
+      "text": "Conheça"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83616660,
+      "duration": 121250,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 83859160,
+      "duration": 4126250,
+      "text": "Umbrella"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 88106660,
+      "duration": 970830,
+      "text": "no"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 89199160,
+      "duration": 4975830,
+      "text": "perfil"
+    }
+  ]
+}

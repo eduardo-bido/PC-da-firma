@@ -1,31 +1,31 @@
 # Motion 001 — V7, teste de direção
 
-**Atualização:** a voz Kokoro apresentada foi rejeitada pelo usuário por soar robótica. Em seguida, ele pediu pesquisa de referências e instalou a skill `Felpborges/motion-graphics`. Esta fala não é aprovada para entrega. Leia `../REFERENCIAS_V7.md`; não tratar a V7 como final narrado.
+**Atualização:** o usuário rejeitou Kokoro e Qwen3-TTS. Autorizou testar voz online gratuita sem conta e escolheu **Thalita** após comparar com Francisca. A montagem usa essa gravação. A escolha da voz não implica aprovação do vídeo completo. Pesquisa em `../REFERENCIAS_V7.md`.
 
 ## Pedido de 22/10/2026
 
-O usuário rejeitou a V6. A nova referência descrita é uma tomada contínua de martelo aproximando-se de um prego, câmera aproximando-se durante cerca de 5 s e, depois, voz feminina com texto sobre atenção e posicionamento digital. O link dessa referência ainda não foi fornecido; não foi possível assistir nem confirmar a ferramenta usada ou resultados de conversão.
+O usuário rejeitou a V6. A nova referência descrita é uma tomada contínua de martelo aproximando-se de um prego, câmera aproximando-se durante cerca de 5 s e, depois, voz feminina com texto sobre atenção e posicionamento digital. O usuário informou que não tem o link dessa referência; não foi possível assistir nem confirmar a ferramenta usada ou resultados de conversão.
 
 ## Decisões para o teste
 
 - Objetivo: despertar interesse e levar ao perfil da Umbrella.
-- Objeto: manter o guarda-chuva existente enquanto a pergunta sobre troca por martelo/prego aguarda resposta.
-- Voz: feminina em português brasileiro, sem pessoa em cena, enquanto a pergunta sobre apresentadora aguarda resposta.
-- Duração medida pela narração: **20,0417 s**, 24 fps, 481 quadros. A preferência de duração foi perguntada e ainda não respondida.
+- Objeto: manter o guarda-chuva existente, confirmado pelo usuário.
+- Voz: feminina em português brasileiro, sem pessoa em cena, confirmado pelo usuário.
+- Duração medida pela narração: **20,0417 s**, 24 fps, 481 quadros. Cerca de 20 segundos foi confirmado pelo usuário.
 - Quadro: 1080×1920. Uma câmera física de 50 mm. Zero cortes de câmera, zero redimensionamento animado do vídeo.
 - 0–5 s: objeto fechado em queda, da altura de 0,82 m até contato; a câmera acompanha a ponta e reduz a distância de 2,20 m para 0,38 m em curva contínua.
 - 5–5,75 s: recuo pela mesma direção; abertura 5,38–5,65 s, depois balanço com apoio na geometria real da reconstrução. O atraso de 0,38 s dá espaço ao recuo para não atravessar a copa.
-- 5,76 s em diante: narração e legendas por frase, depois de a abertura liberar o quadro. Sem legenda falsa cronometrada por palavra.
+- 5,76 s em diante: faixa de narração; fala audível a partir de aproximadamente 5,86 s e até 15,43 s. Legendas por frase usam os tempos de palavras retornados com a gravação. Convite final continua até o fim.
 - Títulos: Manrope local, legendas 66 px, peso 600; nome 116 px, peso 600. Texto entre x=130 e 910, y=242 e aproximadamente 565. Convite final retido até o fim.
 - Acento violeta claro apenas nas expressões “cinco segundos” e “conquistar clientes”. Sem HUD, partículas, glitch, contador ou cartões.
 - Produto: impressão da reconstrução LP. Tipografia sobre a cena serve à mensagem e não substitui um master de wordmark.
-- Som: contato procedural e abertura gravada CC0; voz gerada offline por Kokoro `pf_dora`. Sem música.
+- Som: contato procedural e abertura gravada CC0; voz `pt-BR-ThalitaMultilingualNeural` pelo serviço Edge autorizado. Sem música. Geração da voz online, composição/render locais. Sem conta, API paga ou créditos.
 
 ## Fala usada no teste
 
 > Você ficou cinco segundos esperando esse contato.
-> Seu posicionamento também precisa prender atenção e conquistar clientes.
-> Umbrella. Ajudando no seu posicionamento digital.
+> Seu posicionamento precisa prender atenção e conquistar clientes.
+> Umbrella.
 > Conheça a Umbrella no perfil.
 
 ## Critérios de revisão

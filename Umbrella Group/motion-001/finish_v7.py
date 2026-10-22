@@ -51,7 +51,7 @@ def main():
     sheet.save(out/'contact-sheet.png')
     report={'duration':meta['duration'],'fps':24,'frames':round(meta['duration']*24),
             'camera_count':1,'camera_cuts':0,'narration':meta,
-            'files':records,'auditory_review':'Not listened to by the agent; user audition required.',
+            'files':records,'auditory_review':'Agent did not hear the final mix. User compared samples and selected Thalita; full-video approval remains pending.',
             'status':'Direction pilot, not approved for posting.'}
     (out/'verification.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
     print('Two complete decoded videos verified.',flush=True)

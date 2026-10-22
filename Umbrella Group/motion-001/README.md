@@ -2,9 +2,11 @@
 
 ## V7 — tomada contínua com narração e legendas
 
-A V6 foi rejeitada em 22/10/2026. A direção vigente é uma aproximação contínua até o contato em cerca de cinco segundos, seguida de voz feminina e legendas conectando atenção a posicionamento digital. O novo projeto usa Blender para a tomada e HyperFrames local para voz gravada em arquivo, legendas e título. A voz de teste Kokoro foi rejeitada por soar robótica e não deve ser usada na entrega final. A prioridade mais recente é a [pesquisa de referências](REFERENCIAS_V7.md). Não há login, chamada paga, publicação ou alteração da LP.
+V7: cerca de 20 segundos, guarda-chuva e uma câmera contínua, confirmados pelo usuário. Após 5 s de expectativa e contato, entram voz feminina e legendas relacionando atenção a posicionamento. O usuário rejeitou os testes locais Kokoro/Qwen, autorizou voz online gratuita sem conta e escolheu **Thalita**. Blender, HyperFrames e render continuam locais. Não houve cobrança, créditos, publicação ou alteração da LP.
 
-Leia [o roteiro e critérios da V7](hyperframes-v7/SPEC.md) e [os comandos de reprodução](hyperframes-v7/README.md). As decisões ainda não respondidas pelo usuário estão registradas no roteiro; 20 segundos, guarda-chuva e voz sem apresentadora são suposições para o teste. O realismo do tecido fechado continua limitado pela reconstrução disponível.
+Avaliação em `v7/motion-001-v7-540x960.mp4`; arquivo cheio em `v7/motion-001-v7-1080x1920.mp4`. `review-v7.html` oferece marcadores. A voz foi escolhida em amostra; a peça completa ainda precisa de avaliação do usuário. O tecido fechado continua limitado pela reconstrução disponível.
+
+Leia [roteiro e critérios](hyperframes-v7/SPEC.md), [reprodução](hyperframes-v7/README.md), [voz escolhida](edge-voice/README.md) e [pesquisa de referências](REFERENCIAS_V7.md). Identidade continua subordinada a Umbrella 01 → 02 → 03.
 
 ## V6 — atenção, queda e convite ao perfil
 

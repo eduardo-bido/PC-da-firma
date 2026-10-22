@@ -1,20 +1,22 @@
 # Umbrella Motion 001 — estado atual
 
-## Correção de direção em 22/10/2026 — V7
+## V7 — decisões vigentes, 22/10/2026
 
-**Último retorno:** o usuário não tem o link do Reel do martelo, rejeitou a voz Kokoro como robótica, forneceu uma coleção geral do Pinterest, pediu instalar `https://github.com/Felpborges/motion-graphics` e depois pediu “continue buscando Refs”. A skill foi instalada com sucesso em `C:/Users/eduardo.bido/.codex/skills/motion-graphics`; estará disponível na descoberta automática no próximo turno. Guias de alinhamento, referências, direção, custos e filmagem com gráficos foram lidos. A busca atual e as limitações de inspeção estão em `REFERENCIAS_V7.md`. Não voltar a oferecer a mesma voz como corrigida apenas por equalização ou mudança de ritmo.
+O usuário confirmou **guarda-chuva, tomada contínua, somente voz feminina com legendas e cerca de 20 segundos**. O martelo/prego é referência de expectativa, não troca de objeto. O usuário não tem o link. Não afirmar que identificamos esse Reel ou sua ferramenta.
 
-A tomada V7 foi renderizada por inteiro (481 quadros 1080×1920); existe base visual em `hyperframes-v7/assets/continuous-take.mp4`. Não houve render narrado final V7. O checkpoint Git desta revisão preserva pesquisa e estudo; consultar o log de `PC-da-firma` para confirmar a versão enviada. Qwen3-TTS e Chatterbox foram pesquisados como candidatos de voz local; não foram instalados nem testados. A prioridade mais recente é referências.
+Kokoro e Qwen3-TTS foram rejeitados como artificiais. O usuário **autorizou expressamente testar o serviço online gratuito do Edge, sem conta**, e escolheu **Thalita** após comparar com Francisca. Não voltar às vozes rejeitadas. Essa exceção vale para voz; Blender, montagem e render continuam locais. Nenhuma conta, cobrança, geração com créditos, publicação no Instagram ou alteração de produção.
 
-**A V6 abaixo foi rejeitada pelo usuário.** A referência nova é uma tomada contínua de aproximação até um contato em cerca de 5 s, seguida por voz feminina e legendas ligando atenção a posicionamento digital. Não retomar os seis cortes como aprovados.
+A montagem V7 usa `edge-voice/thalitamultilingual-full.mp3`, tempos WordBoundary do serviço, `assemble_edge_voice.py`, `prepare_v7.py` e HyperFrames 0.8.184 local. A voz entra após a abertura (~5,86 s) e termina ~15,43 s; o convite ao perfil permanece até o fim. Duração 20,0417 s, 481 quadros, 24 fps. Uma câmera física de 50 mm, sem cortes ou escala digital do vídeo. Contato em 5 s e abertura 5,38–5,65 s.
 
-A nova implementação está em `render_3d_v7.py`, `local-tts/`, `prepare_v7.py`, `hyperframes-v7/` e `finish_v7.py`. Leia primeiro `hyperframes-v7/SPEC.md` e `hyperframes-v7/README.md`. Ela usa uma câmera de 50 mm sem cortes e narração feminina pt-BR gerada offline; as legendas correspondem a frases reais da voz. Duração de teste: 20,0417 s. Manter o objetivo de visita ao perfil e as restrições de custo, publicação e identidade.
+Texto: “Você ficou cinco segundos esperando esse contato. Seu posicionamento precisa prender atenção e conquistar clientes. Umbrella. Conheça a Umbrella no perfil.” A frase repetida sobre posicionamento foi removida para preservar ritmo e leitura.
 
-Foram perguntados: manter guarda-chuva ou trocar por martelo/prego; voz apenas ou apresentadora em cena; duração de cerca de 20 s ou até 15 s. **Essas três decisões ainda não foram respondidas.** Quanto ao link da referência, o usuário disse que não o tem. As suposições do teste são guarda-chuva, voz apenas e cerca de 20 s. Se o usuário responder depois, as respostas prevalecem sobre essas suposições.
+Arquivos de avaliação em `v7/`: MP4 1080×1920, prévia 540×960, contact-sheet e verification.json. `review-v7.html` abre a prévia com marcadores. O usuário escolheu a voz em amostra; o vídeo inteiro não está aprovado para postagem. Conferir o relatório de verificação e o log Git para o estado efetivamente entregue.
 
-O HyperFrames oficial foi verificado e instalado apenas na pasta do projeto, versão 0.8.184. Não foi instalado plugin global nem usado login/serviço HeyGen. O Reel do martelo não foi identificado; não alegar que foi feito em HyperFrames nem que teve conversão comprovada. Voz `pf_dora` por Kokoro ONNX local, pesos com hashes em `local-tts/model-manifest.json`; código, licenças e comandos estão no README da V7. O teste de voz foi oferecido ao usuário; a qualidade auditiva não foi avaliada pelo agente.
+A skill `Felpborges/motion-graphics` está instalada em `C:/Users/eduardo.bido/.codex/skills/motion-graphics`. Pesquisa e limites de observação em `REFERENCIAS_V7.md`. Procedência e comandos vigentes em `hyperframes-v7/README.md` e `edge-voice/README.md`. Qwen local foi instalado/testado, mas seus pesos e ambiente não entram no Git.
 
-O limite visual mais evidente continua sendo o tecido fechado da reconstrução, com pregas rígidas. Não chamar a V7 de filmagem real ou master proprietário, nem afirmar que está aprovada para postar. A hierarquia Umbrella 01 → 02 → 03 permanece intacta. A versão anterior fica como histórico.
+**Limite visual:** a reconstrução existente da LP conserva pregas rígidas no guarda-chuva fechado; não é filmagem real ou master proprietário recuperado. Preservar Umbrella 01 → 02 → 03. Não inventar assets ausentes. A avaliação visual incluiu quadros do contato, abertura, mensagem e fechamento; não confundir isso com audição da mixagem pelo agente ou resultado medido de conversão.
+
+Abaixo, histórico V6 rejeitado. Não reintroduzir seus seis cortes como aprovados.
 
 ## Histórico da entrega V6
 

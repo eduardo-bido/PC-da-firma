@@ -1,0 +1,7 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Umbrella — revisão V7</title>
+<style>body{margin:0;background:#17151b;color:#f5f3f7;font:16px system-ui;display:grid;justify-content:center;gap:14px;padding:24px}h1{font-size:22px;margin:0}video{display:block;width:min(360px,88vw);height:auto;background:#252127}nav{display:flex;flex-wrap:wrap;gap:7px;max-width:360px}button{background:#40334f;color:white;border:0;border-radius:5px;padding:9px}p{max-width:360px;line-height:1.5;margin:0}</style>
+<h1>Umbrella · Motion 001 · V7</h1>
+<video id="reel" controls playsinline preload="metadata" src="v7/motion-001-v7-540x960.mp4"></video>
+<nav><button id="restart">Reproduzir do começo</button><button data-at="0.5">0,5 s</button><button data-at="5">Contato</button><button data-at="5.7">Abertura</button><button data-at="6.3">Legenda</button><button data-at="11.4">Mensagem</button><button data-at="14.5">Marca e convite</button><button data-at="20">Final</button></nav>
+<p>20 s · tomada contínua · voz Thalita selecionada · sons do guarda-chuva. Revisão de direção; tecido fechado ainda limitado pela reconstrução disponível.</p>
+<script>const v=document.querySelector('video');document.querySelector('#restart').onclick=()=>{v.currentTime=0;v.play()};for(const b of document.querySelectorAll('[data-at]'))b.onclick=()=>{v.pause();v.currentTime=Number(b.dataset.at)};</script></html>

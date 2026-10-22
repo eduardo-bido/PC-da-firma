@@ -1,0 +1,87 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 3
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "duration": 20.041666666666668,
+    "samples": [
+      2.004,
+      6.013,
+      10.021,
+      14.029,
+      18.038
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 0,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      2.004,
+      6.013,
+      10.021,
+      14.029,
+      18.038
+    ],
+    "checked": 7,
+    "passed": 7
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "6706c76d-24a9-4da0-aacf-055e5291a776",
+    "revision": "88737c40-979c-4b55-8a2b-d70064653c7b",
+    "report": "C:\\Users\\eduardo.bido\\Documents\\ChatGPT\\Umbrella Group\\motion-001\\hyperframes-v7\\.hyperframes\\artifacts\\checks\\6706c76d-24a9-4da0-aacf-055e5291a776.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.8.184",
+    "latestVersion": "0.8.185",
+    "updateAvailable": true
+  }
+}

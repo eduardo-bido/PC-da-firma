@@ -1,4 +1,7 @@
 .git-delivery/
+motion-001/local-qwen/model/
+motion-001/local-qwen/cache/
+motion-001/local-qwen/raw/
 **/node_modules/
 **/.venv/
 motion-001/local-tts/*.onnx

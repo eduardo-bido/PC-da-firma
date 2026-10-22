@@ -41,3 +41,9 @@ Prévia pública do catálogo para comparação: [weight shift](https://static.h
 ## Estado técnico preservado
 
 A tomada de teste V7 foi renderizada em 481 PNGs 1080×1920, 24 fps, com uma câmera e sem cortes. `hyperframes-v7/assets/continuous-take.mp4` é a base visual sem legendas e sem voz; não é Reel final. O projeto de composição e o áudio anterior continuam como estudo, com voz explicitamente rejeitada. Não houve render final narrado V7 nem publicação. Um checkpoint no Git preserva este estado de pesquisa e não deve ser apresentado como final aprovado; consultar o histórico do repositório para confirmar o envio.
+
+## Atualização de produção e voz após a pesquisa
+
+O usuário confirmou guarda-chuva, voz feminina sem apresentadora e cerca de 20 s. Qwen3-TTS 1.7B VoiceDesign foi instalado e testado offline em CUDA/SDPA/BF16, mas a amostra também foi rejeitada como artificial. A pesquisa não comprovava previamente sua qualidade. Pesos fixados e hashes estão em `local-qwen/model-manifest.json`, fora da entrega de mídia.
+
+Depois, o usuário autorizou explicitamente a voz online gratuita sem conta e escolheu Thalita entre duas amostras Edge. O [cliente edge-tts](https://github.com/rany2/edge-tts) 7.3.1 acessa o serviço Read Aloud online; montagem e render são locais. A seleção não é evidência de desempenho comercial. Vídeo completo é uma versão para avaliação, sem publicação.

@@ -1,0 +1,32 @@
+[
+  {
+    "name": "kokoro-v1.0.onnx",
+    "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/kokoro-v1.0.onnx",
+    "bytes": 325505369,
+    "sha256": "beb0d1848dee9a49da392cc3df26958d46cfa35d321edf434f52949153f0df3a"
+  },
+  {
+    "name": "voices-v1.0.bin",
+    "url": "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin",
+    "bytes": 28214398,
+    "sha256": "bca610b8308e8d99f32e6fe4197e7ec01679264efed0cac9140fe9c29f1fbf7d"
+  },
+  {
+    "name": "MODEL_CARD.md",
+    "url": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/README.md",
+    "bytes": 6348,
+    "sha256": "91dcabced89db6f109b8786642f50402d3ee87450e8189589b6f85520e7f4d78"
+  },
+  {
+    "name": "VOICES.md",
+    "url": "https://huggingface.co/hexgrad/Kokoro-82M/raw/main/VOICES.md",
+    "bytes": 7625,
+    "sha256": "ec7e4941ad7e194af61e3455928528a9ff5360c7c505e412efab27d6a69ea106"
+  },
+  {
+    "name": "KOKORO_ONNX_LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/thewh1teagle/kokoro-onnx/main/LICENSE",
+    "bytes": 1080,
+    "sha256": "f61fdd0217de9ece8fa699912848d91187d84879fc2e689f0906d0c1299e955e"
+  }
+]

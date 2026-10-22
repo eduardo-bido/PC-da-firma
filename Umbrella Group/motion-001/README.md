@@ -1,5 +1,11 @@
 # Umbrella Group — Motion 001
 
+## V7 — tomada contínua com narração e legendas
+
+A V6 foi rejeitada em 22/10/2026. A direção vigente é uma aproximação contínua até o contato em cerca de cinco segundos, seguida de voz feminina e legendas conectando atenção a posicionamento digital. O novo projeto usa Blender para a tomada e HyperFrames local para voz gravada em arquivo, legendas e título. A voz de teste Kokoro foi rejeitada por soar robótica e não deve ser usada na entrega final. A prioridade mais recente é a [pesquisa de referências](REFERENCIAS_V7.md). Não há login, chamada paga, publicação ou alteração da LP.
+
+Leia [o roteiro e critérios da V7](hyperframes-v7/SPEC.md) e [os comandos de reprodução](hyperframes-v7/README.md). As decisões ainda não respondidas pelo usuário estão registradas no roteiro; 20 segundos, guarda-chuva e voz sem apresentadora são suposições para o teste. O realismo do tecido fechado continua limitado pela reconstrução disponível.
+
 ## V6 — atenção, queda e convite ao perfil
 
 A v6 substitui a câmera da v5 por seis tomadas com lentes fixas: retrato da queda, plano com chão, macro da ponteira, abertura, impressão e hero. A física usa gravidade em um relógio de slow motion, apoio calculado na superfície existente e balanço com amortecimento. A ponteira encontra o piso em Z=0 aos 4,90 s; a abertura acontece entre 5,00 e 5,30 s. Há transferência de apoio durante a inclinação, em vez de manter artificialmente ponta e borda simultaneamente no chão.

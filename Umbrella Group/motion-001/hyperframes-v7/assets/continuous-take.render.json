@@ -1,0 +1,21 @@
+{
+  "version": "v7-pilot",
+  "frames": 481,
+  "fps": 24,
+  "duration": 20.041666666666668,
+  "width": 1080,
+  "height": 1920,
+  "cuts": [],
+  "camera_count": 1,
+  "lens_mm": 50,
+  "camera_method": "Continuous physical dolly, same azimuth; fixed lens and focus on actual tip/cloth.",
+  "contact_time": 5.0,
+  "opening": [
+    5.38,
+    5.65
+  ],
+  "release_height_m": 0.82,
+  "asset_status": "Existing LP reconstruction, not approved identity master.",
+  "backend": "OPTIX",
+  "samples": 24
+}

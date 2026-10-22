@@ -1,4 +1,12 @@
 .git-delivery/
+**/node_modules/
+**/.venv/
+motion-001/local-tts/*.onnx
+motion-001/local-tts/*.bin
+motion-001/local-tts/*.part
+motion-001/local-tts/.tmp/
+motion-001/hyperframes-v7/.hyperframes/
+motion-001/v7-frames-*/
 **/__pycache__/
 *.log
 optix7cache.db*

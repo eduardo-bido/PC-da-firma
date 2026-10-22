@@ -1,5 +1,23 @@
 # Umbrella Motion 001 — estado atual
 
+## Correção de direção em 22/10/2026 — V7
+
+**Último retorno:** o usuário não tem o link do Reel do martelo, rejeitou a voz Kokoro como robótica, forneceu uma coleção geral do Pinterest, pediu instalar `https://github.com/Felpborges/motion-graphics` e depois pediu “continue buscando Refs”. A skill foi instalada com sucesso em `C:/Users/eduardo.bido/.codex/skills/motion-graphics`; estará disponível na descoberta automática no próximo turno. Guias de alinhamento, referências, direção, custos e filmagem com gráficos foram lidos. A busca atual e as limitações de inspeção estão em `REFERENCIAS_V7.md`. Não voltar a oferecer a mesma voz como corrigida apenas por equalização ou mudança de ritmo.
+
+A tomada V7 foi renderizada por inteiro (481 quadros 1080×1920); existe base visual em `hyperframes-v7/assets/continuous-take.mp4`. Não houve render narrado final V7. O checkpoint Git desta revisão preserva pesquisa e estudo; consultar o log de `PC-da-firma` para confirmar a versão enviada. Qwen3-TTS e Chatterbox foram pesquisados como candidatos de voz local; não foram instalados nem testados. A prioridade mais recente é referências.
+
+**A V6 abaixo foi rejeitada pelo usuário.** A referência nova é uma tomada contínua de aproximação até um contato em cerca de 5 s, seguida por voz feminina e legendas ligando atenção a posicionamento digital. Não retomar os seis cortes como aprovados.
+
+A nova implementação está em `render_3d_v7.py`, `local-tts/`, `prepare_v7.py`, `hyperframes-v7/` e `finish_v7.py`. Leia primeiro `hyperframes-v7/SPEC.md` e `hyperframes-v7/README.md`. Ela usa uma câmera de 50 mm sem cortes e narração feminina pt-BR gerada offline; as legendas correspondem a frases reais da voz. Duração de teste: 20,0417 s. Manter o objetivo de visita ao perfil e as restrições de custo, publicação e identidade.
+
+Foram perguntados: manter guarda-chuva ou trocar por martelo/prego; voz apenas ou apresentadora em cena; duração de cerca de 20 s ou até 15 s. **Essas três decisões ainda não foram respondidas.** Quanto ao link da referência, o usuário disse que não o tem. As suposições do teste são guarda-chuva, voz apenas e cerca de 20 s. Se o usuário responder depois, as respostas prevalecem sobre essas suposições.
+
+O HyperFrames oficial foi verificado e instalado apenas na pasta do projeto, versão 0.8.184. Não foi instalado plugin global nem usado login/serviço HeyGen. O Reel do martelo não foi identificado; não alegar que foi feito em HyperFrames nem que teve conversão comprovada. Voz `pf_dora` por Kokoro ONNX local, pesos com hashes em `local-tts/model-manifest.json`; código, licenças e comandos estão no README da V7. O teste de voz foi oferecido ao usuário; a qualidade auditiva não foi avaliada pelo agente.
+
+O limite visual mais evidente continua sendo o tecido fechado da reconstrução, com pregas rígidas. Não chamar a V7 de filmagem real ou master proprietário, nem afirmar que está aprovada para postar. A hierarquia Umbrella 01 → 02 → 03 permanece intacta. A versão anterior fica como histórico.
+
+## Histórico da entrega V6
+
 Atualizado em 21/10/2026. **V6 exportada e verificada**: 15 segundos, 24 fps, 360 quadros, H.264/AAC estéreo e Rec.709. Os dois MP4s foram decodificados por inteiro sem erros. Esta é uma iteração da reconstrução da LP, não um master de identidade aprovado.
 
 ## Entregas

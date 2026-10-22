@@ -1,0 +1,56 @@
+{
+  "voice": "pf_dora",
+  "lang": "pt-br",
+  "provider": "Kokoro 82M / ONNX, offline",
+  "speed": 1.0,
+  "pitch_preserving_tempo": 1.08,
+  "duration": 20.041666666666668,
+  "fps": 24,
+  "processing": "80 Hz high-pass, compressor, loudness normalization, -1.5 dBTP limit; no voice cloning.",
+  "caption_alignment": "Exact generated phrase boundaries; no inferred word timing.",
+  "cues": [
+    {
+      "id": "caption-1",
+      "text": "Você ficou cinco segundos",
+      "start": 5.76,
+      "end": 7.44362
+    },
+    {
+      "id": "caption-2",
+      "text": "esperando esse contato.",
+      "start": 7.48362,
+      "end": 8.8745
+    },
+    {
+      "id": "caption-3",
+      "text": "Seu posicionamento também precisa",
+      "start": 9.2145,
+      "end": 11.44404
+    },
+    {
+      "id": "caption-4",
+      "text": "prender atenção e conquistar clientes.",
+      "start": 11.47904,
+      "end": 13.76008
+    },
+    {
+      "id": "caption-5",
+      "text": "Umbrella.",
+      "start": 14.10008,
+      "end": 14.79129
+    },
+    {
+      "id": "caption-6",
+      "text": "Ajudando no seu posicionamento digital.",
+      "start": 14.89129,
+      "end": 17.31504
+    },
+    {
+      "id": "caption-7",
+      "text": "Conheça a Umbrella no perfil.",
+      "start": 17.63504,
+      "end": 19.22996
+    }
+  ],
+  "voice_review": "rejected_by_user_2026-10-22_as_robotic; historical test only"
+}

@@ -1,23 +1,31 @@
 1
-00:00:05,809 --> 00:00:07,216
+00:00:05,802 --> 00:00:06,999
 Você ficou cinco segundos
 
 2
-00:00:07,216 --> 00:00:08,498
+00:00:06,999 --> 00:00:08,128
 esperando esse contato.
 
 3
-00:00:08,758 --> 00:00:10,226
-Seu posicionamento precisa
+00:00:08,334 --> 00:00:09,542
+Seu site também precisa
 
 4
-00:00:10,226 --> 00:00:12,600
-prender atenção e conquistar clientes.
+00:00:09,542 --> 00:00:10,427
+causar impacto,
 
 5
-00:00:12,884 --> 00:00:13,571
-Umbrella.
+00:00:10,453 --> 00:00:11,438
+prender atenção
 
 6
-00:00:13,830 --> 00:00:15,500
-Conheça a Umbrella no perfil.
+00:00:11,438 --> 00:00:12,609
+e conquistar clientes.
+
+7
+00:00:12,815 --> 00:00:14,166
+É isso que a gente resolve.
+
+8
+00:00:14,383 --> 00:00:15,448
+Conheça a Umbrella.

@@ -1,5 +1,11 @@
 # Umbrella Group — Motion 001
 
+## V7.1 — correção de piscada, fala mais dinâmica e mensagem direta
+
+A V7 foi avaliada positivamente pelo usuário. Esta revisão preserva a tomada e corrige duas piscadas de iluminação nos quadros originais, atualiza o texto e torna a voz Thalita mais rápida. Fechamento: **“É isso que a gente resolve. Conheça a Umbrella.”**
+
+Arquivos atuais: `v7-1/motion-001-v7-1-1080x1920.mp4` e `v7-1/motion-001-v7-1-540x960.mp4`, com 20,0417 s e 24 fps. Relatórios de arquivo e regressão da piscada em `v7-1/`. [Mudanças e reprodução](v7-1/README.md). Voz online gratuita já autorizada, render local, sem publicação, custos ou créditos. A V7 anterior continua preservada.
+
 ## V7 — tomada contínua com narração e legendas
 
 V7: cerca de 20 segundos, guarda-chuva e uma câmera contínua, confirmados pelo usuário. Após 5 s de expectativa e contato, entram voz feminina e legendas relacionando atenção a posicionamento. O usuário rejeitou os testes locais Kokoro/Qwen, autorizou voz online gratuita sem conta e escolheu **Thalita**. Blender, HyperFrames e render continuam locais. Não houve cobrança, créditos, publicação ou alteração da LP.

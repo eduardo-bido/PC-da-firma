@@ -21,10 +21,11 @@ def build():
     for cue in meta['cues']:
         if cue['text']=='Umbrella.':continue # The brand title is the caption here.
         display_end=duration-.04 if cue is meta['cues'][-1] else cue['end']
-        text=cue['text'].replace('cinco segundos','<em>cinco segundos</em>').replace('conquistar clientes.','<em>conquistar clientes.</em>')
+        text=cue['text'].replace('cinco segundos','<em>cinco segundos</em>').replace('conquistar clientes.','<em>conquistar clientes.</em>').replace('causar impacto,','<em>causar impacto,</em>')
         # Selected voice: service WordBoundary offsets, grouped into phrases.
         captions.append(f'''<div id="{cue['id']}" class="clip caption" data-start="{cue['start']}" data-duration="{display_end-cue['start']:.5f}"><div class="caption-text">{text}</div></div>''')
-    brand=next(c for c in meta['cues'] if c['text']=='Umbrella.')
+    brand=({'start':meta['brand_start']} if 'brand_start' in meta else
+           next(c for c in meta['cues'] if c['text']=='Umbrella.'))
     (PROJECT/'index.html').write_text(f'''<!doctype html>
 <html lang="pt-BR" data-composition-variables='[{{"id":"brand","type":"string","label":"Marca","default":"Umbrella"}}]'>
 <head><meta charset="utf-8"><title>Umbrella — o contato</title>

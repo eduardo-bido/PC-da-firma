@@ -3,129 +3,165 @@
   "words": [
     {
       "type": "WordBoundary",
-      "offset": 485409,
-      "duration": 2305830,
+      "offset": 423750,
+      "duration": 2012500,
       "text": "Você"
     },
     {
       "type": "WordBoundary",
-      "offset": 2791250,
-      "duration": 3034160,
+      "offset": 2436250,
+      "duration": 2542500,
       "text": "ficou"
     },
     {
       "type": "WordBoundary",
-      "offset": 5825410,
-      "duration": 4125830,
+      "offset": 4978750,
+      "duration": 3390000,
       "text": "cinco"
     },
     {
       "type": "WordBoundary",
-      "offset": 9951250,
-      "duration": 4611660,
+      "offset": 8368750,
+      "duration": 4025410,
       "text": "segundos"
     },
     {
       "type": "WordBoundary",
-      "offset": 14562910,
-      "duration": 5340000,
+      "offset": 12394160,
+      "duration": 4555000,
       "text": "esperando"
     },
     {
       "type": "WordBoundary",
-      "offset": 19902910,
-      "duration": 1335000,
+      "offset": 16949160,
+      "duration": 1271250,
       "text": "esse"
     },
     {
       "type": "WordBoundary",
-      "offset": 21237910,
-      "duration": 5340000,
+      "offset": 18220410,
+      "duration": 4660830,
       "text": "contato"
     },
     {
       "type": "WordBoundary",
-      "offset": 29975830,
-      "duration": 2670000,
+      "offset": 25741660,
+      "duration": 2224580,
       "text": "Seu"
     },
     {
       "type": "WordBoundary",
-      "offset": 32645830,
-      "duration": 8130830,
-      "text": "posicionamento"
+      "offset": 27966250,
+      "duration": 4025410,
+      "text": "site"
     },
     {
       "type": "WordBoundary",
-      "offset": 40776660,
-      "duration": 3883330,
+      "offset": 31991660,
+      "duration": 2542080,
+      "text": "também"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 34533750,
+      "duration": 3283750,
       "text": "precisa"
     },
     {
       "type": "WordBoundary",
-      "offset": 44660000,
-      "duration": 3276660,
+      "offset": 37817910,
+      "duration": 2542080,
+      "text": "causar"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 40360000,
+      "duration": 5508330,
+      "text": "impacto"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 46927910,
+      "duration": 3495830,
       "text": "prender"
     },
     {
       "type": "WordBoundary",
-      "offset": 47937080,
-      "duration": 7038750,
+      "offset": 50423750,
+      "duration": 6355830,
       "text": "atenção"
     },
     {
       "type": "WordBoundary",
-      "offset": 54975830,
-      "duration": 485409,
+      "offset": 56779580,
+      "duration": 529580,
       "text": "e"
     },
     {
       "type": "WordBoundary",
-      "offset": 55461250,
-      "duration": 5218330,
+      "offset": 57309160,
+      "duration": 4449160,
       "text": "conquistar"
     },
     {
       "type": "WordBoundary",
-      "offset": 60679580,
-      "duration": 6917500,
+      "offset": 61758330,
+      "duration": 5932080,
       "text": "clientes"
     },
     {
       "type": "WordBoundary",
-      "offset": 71237910,
-      "duration": 6067910,
-      "text": "Umbrella"
+      "offset": 70550830,
+      "duration": 1482910,
+      "text": "É"
     },
     {
       "type": "WordBoundary",
-      "offset": 80703750,
-      "duration": 4975830,
-      "text": "Conheça"
+      "offset": 72033750,
+      "duration": 2754160,
+      "text": "isso"
     },
     {
       "type": "WordBoundary",
-      "offset": 85679580,
-      "duration": 364159,
+      "offset": 74788330,
+      "duration": 635410,
+      "text": "que"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 75423750,
+      "duration": 529580,
       "text": "a"
     },
     {
       "type": "WordBoundary",
-      "offset": 86043750,
-      "duration": 4611660,
+      "offset": 75953330,
+      "duration": 2224580,
+      "text": "gente"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 78177910,
+      "duration": 5084580,
+      "text": "resolve"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 86228750,
+      "duration": 4660830,
+      "text": "Conheça"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 90890000,
+      "duration": 423750,
+      "text": "a"
+    },
+    {
+      "type": "WordBoundary",
+      "offset": 91313750,
+      "duration": 4767080,
       "text": "Umbrella"
-    },
-    {
-      "type": "WordBoundary",
-      "offset": 90655410,
-      "duration": 970830,
-      "text": "no"
-    },
-    {
-      "type": "WordBoundary",
-      "offset": 91626250,
-      "duration": 4975830,
-      "text": "perfil"
     }
   ]
 }

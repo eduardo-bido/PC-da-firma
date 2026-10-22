@@ -17,3 +17,7 @@ python motion-001/prepare_v7.py
 No Mac/Linux, use `.venv/bin/python` e `--ffmpeg ffmpeg`. Com os MP3s já presentes, pule os três primeiros comandos: a montagem é offline e não precisa instalar Qwen ou baixar seus pesos.
 
 Cliente [edge-tts](https://github.com/rany2/edge-tts), versão 7.3.1, LGPL-3.0. É um projeto independente que acessa o serviço online Read Aloud do Microsoft Edge; não é SDK oficial com SLA. A licença do cliente não substitui os termos do serviço. Não foi usada chave Azure, conta, assinatura ou cobrança. Nenhum termo foi aceito em nome do usuário. Disponibilidade e vozes podem mudar; os áudios e metadados desta versão ficam preservados.
+
+## Revisão V7.1
+
+O usuário aprovou a base e pediu mais velocidade/entusiasmo e mensagem direta. `thalitamultilingual-v7-1.mp3` / JSON têm a nova fala, ritmo +18%, pitch +4 Hz e tempos WordBoundary. Gerar novamente com `python motion-001/edge-voice.py --revision`; montar com `python motion-001/assemble_edge_voice.py --revision --ffmpeg ffmpeg`. As gravações anteriores permanecem preservadas. Não houve mudança de voz nem serviço pago.

@@ -1,6 +1,19 @@
 # Umbrella Motion 001 — estado atual
 
-## V7 — decisões vigentes, 22/10/2026
+## V7.1 — revisão vigente, 22/10/2026
+
+**Retorno do usuário sobre a V7:** “ficou muito bom de fato” e “de resto, tudo excelente”. Preservar cena, câmera, movimento, cor e identidade aprovados. Pediu somente corrigir piscada ao final, deixar mensagem mais clara com a Umbrella como solução e tornar a fala mais rápida/dinâmica. Não reabrir o briefing nem refazer o visual.
+
+V7.1 em `v7-1/`, 20,0417 s, 481 quadros, 24 fps. Voz Thalita mantida: ritmo +18% (antes +3%), pitch +4 Hz, sem aceleração na pós-produção. Áudio novo `edge-voice/thalitamultilingual-v7-1.mp3`. Geração Edge gratuita online permanece autorizada. Legendas usam os tempos novos.
+
+Fala vigente: “Você ficou cinco segundos esperando esse contato. Seu site também precisa causar impacto, prender atenção e conquistar clientes. É isso que a gente resolve. Conheça a Umbrella.”
+
+Duas piscadas foram localizadas nos PNGs 319/365 (13,2917 e 15,2083 s). Rerender em processo Blender novo com mesmos parâmetros corrigiu ambos; outros 479 quadros foram preservados, sem congelamento/interpolação. O mecanismo interno exato do renderizador permanece não demonstrado. `repair_v7_frames.py` e `v7-1/repair-report.json` documentam. `v7-1/flicker-check.json` verifica todos os quadros do guarda-chuva entre 12 s e fim no MP4 final: máximo delta antes 17,84; depois 0,53. Não há os dois saltos originais.
+
+Dois MP4s decodificados por inteiro, sem erros. `hyperframes-v7/check-report.json` sem erros/avisos. Nova mixagem não ouvida pelo agente; o usuário aprovou a base V7, não a revisão completa ainda. Comandos em `v7-1/README.md`. A V7 anterior e seus arquivos entregues continuam intactos. O projeto HyperFrames existente agora monta a revisão V7.1. Identidade Umbrella 01 → 02 → 03 e restrições de produção/publicação permanecem.
+
+## Histórico V7 — decisões anteriores
+
 
 O usuário confirmou **guarda-chuva, tomada contínua, somente voz feminina com legendas e cerca de 20 segundos**. O martelo/prego é referência de expectativa, não troca de objeto. O usuário não tem o link. Não afirmar que identificamos esse Reel ou sua ferramenta.
 

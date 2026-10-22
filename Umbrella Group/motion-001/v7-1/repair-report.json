@@ -1,0 +1,22 @@
+{
+  "version": "v7-1",
+  "source": "V7 scene and approved motion unchanged",
+  "method": "Two source-frame rerenders in a fresh Blender process. No frame interpolation or frozen image.",
+  "diagnosis": "Large one-frame lighting changes exist in original PNGs, source MP4 and final MP4. No transform quaternion sign discontinuity. Fresh renders with same settings reproduce surrounding frames but not the two flashes; exact renderer-internal cache mechanism unproven.",
+  "frames": [
+    {
+      "frame": 319,
+      "time": 13.291666666666666,
+      "original_max_roi_delta": 17.26971916971917,
+      "repaired_max_roi_delta": 0.09545787545787546,
+      "sha256": "4f31f95907a4b8f17a7a7d6ee9ac72cb0d1f28b34fabffd4bdc7cd8f350a3921"
+    },
+    {
+      "frame": 365,
+      "time": 15.208333333333334,
+      "original_max_roi_delta": 17.724590964590966,
+      "repaired_max_roi_delta": 0.08929181929181929,
+      "sha256": "1670380eaa8700cf50815bda3f8effa58e4ead8ef5d0769ea54cbda09fc79577"
+    }
+  ]
+}

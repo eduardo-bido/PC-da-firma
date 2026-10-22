@@ -1,5 +1,5 @@
 {
-  "version": "v7-pilot",
+  "version": "v7-1",
   "frames": 481,
   "fps": 24,
   "duration": 20.041666666666668,
@@ -17,5 +17,10 @@
   "release_height_m": 0.82,
   "asset_status": "Existing LP reconstruction, not approved identity master.",
   "backend": "OPTIX",
-  "samples": 24
+  "samples": 24,
+  "repaired_frames": [
+    319,
+    365
+  ],
+  "approved_motion_preserved": true
 }

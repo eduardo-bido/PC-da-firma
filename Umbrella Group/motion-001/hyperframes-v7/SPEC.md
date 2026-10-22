@@ -41,3 +41,9 @@ O usuário rejeitou a V6. A nova referência descrita é uma tomada contínua de
 ## Limites
 
 O guarda-chuva continua sendo a reconstrução existente da LP, não um `.blend` proprietário recuperado. O tecido fechado ainda apresenta pregas rígidas e este é o principal limite do realismo. Não redesenhar um master ausente por aproximação. Preservar Umbrella 01 → 02 → 03. O teste avalia a nova gramática e o áudio; não implica aprovação estética nem publicação.
+
+## Revisão vigente V7.1 — após aprovação da direção V7
+
+O usuário elogiou a V7 e pediu três ajustes localizados. A tomada de câmera, geometria, materiais, iluminação, sons e duração são preservados. Foram rerenderizados somente os PNGs 319/365 que tinham iluminação anômala. O teste de regressão no MP4 está em `../v7-1/flicker-check.json`.
+
+Fala atual: “Você ficou cinco segundos esperando esse contato. Seu site também precisa causar impacto, prender atenção e conquistar clientes. É isso que a gente resolve. Conheça a Umbrella.” Thalita com ritmo +18% e pitch +4 Hz. Legendas por frases com tempos WordBoundary. O título entra junto do convite final. Fonte e composição de texto permanecem. Código e comandos em `../v7-1/README.md`.

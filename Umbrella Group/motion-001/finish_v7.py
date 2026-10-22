@@ -13,8 +13,9 @@ def run(args):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--ffmpeg',required=True);p.add_argument('--ffprobe',required=True)
-    a=p.parse_args();out=HERE/'v7';out.mkdir(exist_ok=True)
-    master=out/'motion-001-v7-1080x1920.mp4';proxy=out/'motion-001-v7-540x960.mp4'
+    p.add_argument('--version',default='v7',choices=['v7','v7-1'])
+    a=p.parse_args();out=HERE/a.version;out.mkdir(exist_ok=True)
+    master=out/f'motion-001-{a.version}-1080x1920.mp4';proxy=out/f'motion-001-{a.version}-540x960.mp4'
     meta=json.loads((HERE/'hyperframes-v7/assets/narration.json').read_text(encoding='utf-8'))
     if str(meta.get('voice_review','')).startswith('rejected'):
         raise ValueError('The current voice was rejected by the user. Replace it before delivery.')
@@ -53,6 +54,11 @@ def main():
             'camera_count':1,'camera_cuts':0,'narration':meta,
             'files':records,'auditory_review':'Agent did not hear the final mix. User compared samples and selected Thalita; full-video approval remains pending.',
             'status':'Direction pilot, not approved for posting.'}
+    if a.version=='v7-1':
+        report.update(version='v7-1',
+            status='User approved V7 visual direction; requested V7.1 copy, faster voice and flicker correction. Revised export pending user review.',
+            auditory_review='User positively reviewed V7 with Thalita. Agent did not hear the revised V7.1 mix.',
+            flicker_regression='See flicker-check.json; compares every decoded umbrella ROI frame from 12 s to end.')
     (out/'verification.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
     print('Two complete decoded videos verified.',flush=True)
 

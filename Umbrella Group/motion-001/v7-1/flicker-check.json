@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "Umbrella ROI for every consecutive exported frame from 12 s to end",
+  "threshold": 1.5,
+  "original_max_delta": 17.842893772893774,
+  "revised_max_delta": 0.5250549450549451,
+  "original_mean_delta": 0.47470931267806266,
+  "revised_mean_delta": 0.11101101444851445,
+  "repairs": [
+    {
+      "frame": 319,
+      "time": 13.291666666666666,
+      "before": 17.38842490842491,
+      "after": 0.11460317460317461
+    },
+    {
+      "frame": 365,
+      "time": 15.208333333333334,
+      "before": 17.842893772893774,
+      "after": 0.1436996336996337
+    }
+  ],
+  "measurement": "Mean absolute RGB difference on 270x480 decoded video, umbrella region x30:240 y235:365. Units 0..255.",
+  "limits": "Checks the reported lighting flashes. Does not certify all aesthetics, motion or audio."
+}

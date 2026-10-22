@@ -1,6 +1,6 @@
 # V7 — tomada contínua, voz e legenda
 
-**Estado de revisão:** V7 exportada para avaliação. O usuário confirmou guarda-chuva, câmera contínua, voz feminina sem apresentadora e cerca de 20 s. Rejeitou Kokoro e Qwen, autorizou voz online gratuita sem conta e escolheu **Thalita**. A amostra de voz foi escolhida; o vídeo completo não foi aprovado para publicação.
+**Estado de revisão:** V7 avaliada positivamente pelo usuário; a composição atual monta a revisão V7.1. Mudanças e comandos atualizados em `../v7-1/README.md`. A revisão corrige duas piscadas, explicita a solução e acelera a Thalita. Histórico de preparação V7 abaixo. O usuário confirmou guarda-chuva, câmera contínua, voz feminina sem apresentadora e cerca de 20 s. Rejeitou Kokoro e Qwen, autorizou voz online gratuita sem conta e escolheu **Thalita**. A amostra de voz foi escolhida; o vídeo completo não foi aprovado para publicação.
 
 ## Produção
 

@@ -14,7 +14,9 @@ def build():
     meta=json.loads((ASSETS/'narration.json').read_text(encoding='utf-8'))
     (ASSETS/'fonts').mkdir(exist_ok=True)
     shutil.copy2(HERE.parent/'public/fonts/Manrope.ttf',ASSETS/'fonts/Manrope.ttf')
-    shutil.copy2(PROJECT/'node_modules/gsap/dist/gsap.min.js',ASSETS/'gsap.min.js')
+    gsap=PROJECT/'node_modules/gsap/dist/gsap.min.js'
+    if not gsap.exists():gsap=HERE/'hyperframes-v7/node_modules/gsap/dist/gsap.min.js'
+    shutil.copy2(gsap,ASSETS/'gsap.min.js')
     (PROJECT/'compositions').mkdir(exist_ok=True)
     duration=meta['duration']
     captions=[]

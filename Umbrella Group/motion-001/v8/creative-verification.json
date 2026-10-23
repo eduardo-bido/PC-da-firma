@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "first_035_seconds_tip_descent_pixels_1080": 165.21429061889648,
+  "narration_sha256": "fc7924d272501c818f0660481be835010729303f7c6a736a1aa37ac3540b10f0",
+  "narration_bit_identical_to_v7_1": true,
+  "sound_revision": "reference-v3",
+  "cinematic_event_layers_present": [
+    "bounce_poc_1",
+    "bounce_poc_2",
+    "exact_user_slow_motion_reference",
+    "real_umbrella_blauf",
+    "recorded_tip_contact",
+    "rolling_rrruom_1",
+    "rolling_rrruom_2"
+  ],
+  "sfx_peak_dbfs": -1.6184381524785234,
+  "pre_contact_silent_pocket_seconds": 0.08,
+  "wall_mark_leaves_macro": true,
+  "late_12s_to_end_max_roi_delta": 0.5237484737484738,
+  "late_flash_threshold": 1.5,
+  "late_frames_tested": 193,
+  "auditory_review": "Agent did not hear the new sound. No claim of perceptual sound quality from this test."
+}

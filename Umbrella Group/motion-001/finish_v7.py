@@ -13,10 +13,11 @@ def run(args):
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--ffmpeg',required=True);p.add_argument('--ffprobe',required=True)
-    p.add_argument('--version',default='v7',choices=['v7','v7-1'])
+    p.add_argument('--version',default='v7',choices=['v7','v7-1','v8'])
     a=p.parse_args();out=HERE/a.version;out.mkdir(exist_ok=True)
     master=out/f'motion-001-{a.version}-1080x1920.mp4';proxy=out/f'motion-001-{a.version}-540x960.mp4'
-    meta=json.loads((HERE/'hyperframes-v7/assets/narration.json').read_text(encoding='utf-8'))
+    project='hyperframes-v8' if a.version=='v8' else 'hyperframes-v7'
+    meta=json.loads((HERE/project/'assets/narration.json').read_text(encoding='utf-8'))
     if str(meta.get('voice_review','')).startswith('rejected'):
         raise ValueError('The current voice was rejected by the user. Replace it before delivery.')
     run([a.ffmpeg,'-v','error','-y','-i',str(master),'-vf','scale=540:960:flags=lanczos',
@@ -59,6 +60,12 @@ def main():
             status='User approved V7 visual direction; requested V7.1 copy, faster voice and flicker correction. Revised export pending user review.',
             auditory_review='User positively reviewed V7 with Thalita. Agent did not hear the revised V7.1 mix.',
             flicker_regression='See flicker-check.json; compares every decoded umbrella ROI frame from 12 s to end.')
+    if a.version=='v8':
+        report.update(version='v8',status='Approved V8 concept produced; exported film pending user review.',
+            auditory_review='Agent did not hear V8 mix. Thalita narration is the exact approved V7.1 file. Two SFX sketches rejected; exact user-selected reference-v3 needs user listening.',
+            reference_audio_license='YouTube reference selected by user; no reuse license in public description. Not verified for commercial posting.',
+            source='Existing LP reconstruction and exact wall mark sampled from source print atlas.',
+            first_second='See layout-report.json for tip displacement and wall graphic projection.')
     (out/'verification.json').write_text(json.dumps(report,indent=2,ensure_ascii=False),encoding='utf-8')
     print('Two complete decoded videos verified.',flush=True)
 

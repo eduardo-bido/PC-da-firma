@@ -1,0 +1,8 @@
+{
+  "decoded_sample_peak_dbfs": -2.449248960696047,
+  "expected_sample_peak_dbfs": -4.716617873593766,
+  "correlation_with_expected_mix": 0.9850691221978677,
+  "decoded_duration": 20.041666666666668,
+  "sample_clipping_count": 0,
+  "review": "Waveform comparison only; user listening required for creative approval."
+}

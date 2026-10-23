@@ -1,0 +1,89 @@
+{
+  "version": "reference-v3",
+  "replaces": "cinema-v2 rejected by user as robotic",
+  "reference": {
+    "title": "Slow Motion Sound Effect",
+    "uploader": "twonxd",
+    "source": "https://www.youtube.com/watch?v=z_epWpdsHJc",
+    "selected_by_user": true,
+    "license": "Not specified in the public description; not CC0 verified",
+    "checked": "2026-10-23",
+    "sha256": "5023c6afde696ad86dfe50c17f382cd73dbcc684d415fe5e0439bb6486c18e9e",
+    "local_file": "reference-slow-motion-z_epWpdsHJc.m4a",
+    "source_duration": 4.226041666666666
+  },
+  "reference_start": 0.65,
+  "reference_pitch_and_tempo": "unchanged",
+  "synthetic_pressure_and_impacts": false,
+  "silent_gap": [
+    4.92,
+    5.0
+  ],
+  "sfx_bus_gain": 1.0,
+  "sfx_peak_dbfs": -1.6184381524785234,
+  "final_mix_peak_dbfs": -4.716477352193388,
+  "narration": "Exact approved V7.1 file; effects duck 44% during speech",
+  "events": [
+    {
+      "stem": "exact_user_slow_motion_reference",
+      "at": 0.65,
+      "duration": 4.226041666666666,
+      "peak_dbfs": -2.615365605380476
+    },
+    {
+      "stem": "initial_drop_recorded_air",
+      "at": 0,
+      "duration": 0.4,
+      "peak_dbfs": -8.6359655186601
+    },
+    {
+      "stem": "recorded_tip_contact",
+      "at": 5,
+      "duration": 0.5051666666666667,
+      "peak_dbfs": -1.8302996224270032
+    },
+    {
+      "stem": "real_umbrella_blauf",
+      "at": 5.3,
+      "duration": 0.53,
+      "peak_dbfs": -1.6184381524785234
+    },
+    {
+      "stem": "bounce_poc_1",
+      "at": 6.00417,
+      "duration": 0.3524791666666667,
+      "peak_dbfs": -9.938498686116173
+    },
+    {
+      "stem": "bounce_poc_2",
+      "at": 6.3625,
+      "duration": 0.3571666666666667,
+      "peak_dbfs": -12.780562325481284
+    },
+    {
+      "stem": "bounce_poc_3",
+      "at": 6.7,
+      "duration": 0.39695833333333336,
+      "peak_dbfs": -19.461167440819413
+    },
+    {
+      "stem": "rolling_rrruom_1",
+      "at": 5.83,
+      "duration": 0.7,
+      "peak_dbfs": -17.43201462564387
+    },
+    {
+      "stem": "rolling_rrruom_2",
+      "at": 6.7,
+      "duration": 0.7,
+      "peak_dbfs": -20.953839806757493
+    },
+    {
+      "stem": "rolling_rrruom_3",
+      "at": 7.6,
+      "duration": 0.55,
+      "peak_dbfs": -39.47431230962204
+    }
+  ],
+  "qualification": "Third touch is stylized settling. Agent did not hear the mix. Reference reuse license remains unverified."
+}

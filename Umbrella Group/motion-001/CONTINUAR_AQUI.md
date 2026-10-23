@@ -1,5 +1,19 @@
 # Umbrella Motion 001 — estado atual
 
+## V8 — exportada para avaliação, 23/10/2026
+
+Entregas locais: `v8/motion-001-v8-1080x1920.mp4` e `v8/motion-001-v8-540x960.mp4`. Ambos 481 quadros/24 fps/20,0417 s, H.264/AAC/Rec.709; decodificação integral sem erros. Queda da ponteira nos primeiros 0,35 s: 165 px. Verificação temporal de 12 s ao fim: máximo delta 0,524, abaixo do limite de 1,5 e sem os flashes anteriores. Voz idêntica bit a bit à V7.1. Relatórios em `v8/verification.json`, `creative-verification.json` e `audio-verification.json`. Vídeo com som reference-v3 enviado ao usuário; avaliação perceptiva dessa revisão permanece pendente.
+
+**Git público:** a aprovação automática rejeitou enviar o áudio do YouTube sem licença identificada e arquivos que o contêm. Não contornar. O checkpoint V8 exclui referência, Foley misturado, audição e MP4s finais; inclui render visual silencioso, código, voz, CC0, imagens e relatórios. Foi solicitada eventual autorização/licença do efeito ao usuário. Para reproduzir a montagem em outro computador, fornecer áudio autorizado local via `prepare_v8.py --reference`. As prévias completas continuam locais.
+
+Após elogiar a V7.1, o usuário analisou o primeiro segundo e aprovou: queda mais evidente → super slow motion; som que afina/concentra e cria tensão sem assobio/cartoon ou saturação; marca Umbrella fosca integrada à parede, levemente desfocada. Autorização explícita: “perfeito. faça aprovado.”
+
+Manter 20,0417 s, 24 fps, uma câmera, geometria existente, palavra exata, voz Thalita, texto/legendas V7.1 e coreografia do contato/abertura/balanço. Scripts novos `render_3d_v8.py`, `prepare_v8.py`, `verify_v8.py`; projeto separado `hyperframes-v8`; saída `v8/`. As versões anteriores permanecem intactas.
+
+A marca da parede amostra o alfa do atlas existente, bbox (102,725)-(411,782), sem fonte substituta/redesenho. As duas primeiras prévias sonoras foram rejeitadas: primeira distante/“pingpong”, segunda robótica. Não reutilizar como aprovadas. O usuário forneceu o efeito exato https://www.youtube.com/watch?v=z_epWpdsHJc. **`design_v8_reference.py`** é agora o caminho vigente: áudio de referência sem mudança de pitch/tempo, contatos gravados CC0, abertura real e balanço sem modulação sintética; voz exata V7.1. O efeito indicado no YouTube não tem licença declarada na descrição; uso para postagem ainda não confirmado. Essa correção autoriza revisar também os efeitos após 5 s. Desenho e comandos em `v8/README.md`. Conceito aprovado; verificar render e relatórios antes de alegar entrega. Nenhuma nova geração de voz/API, despesa, crédito, conta, publicação no Instagram ou alteração da LP.
+
+## Histórico V7.1
+
 ## V7.1 — revisão vigente, 22/10/2026
 
 **Retorno do usuário sobre a V7:** “ficou muito bom de fato” e “de resto, tudo excelente”. Preservar cena, câmera, movimento, cor e identidade aprovados. Pediu somente corrigir piscada ao final, deixar mensagem mais clara com a Umbrella como solução e tornar a fala mais rápida/dinâmica. Não reabrir o briefing nem refazer o visual.

@@ -1,0 +1,50 @@
+[
+  {
+    "author": "KVV_Audio",
+    "id": 729226,
+    "file": "cinematic-whoosh-729226-cc0.mp3",
+    "source": "https://freesound.org/people/KVV_Audio/sounds/729226/",
+    "preview": "https://cdn.freesound.org/previews/729/729226_12846320-hq.mp3",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "checked": "2026-10-23",
+    "bytes": 254736,
+    "sha256": "dd9cf3274fab160151c960e26f1ec0c5628936d8bc129d87fc60b8bab281671d"
+  },
+  {
+    "author": "Qat",
+    "id": 108334,
+    "file": "whoosh-click-108334-cc0.mp3",
+    "source": "https://freesound.org/people/Qat/sounds/108334/",
+    "preview": "https://cdn.freesound.org/previews/108/108334_1855536-hq.mp3",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "checked": "2026-10-23",
+    "bytes": 21921,
+    "sha256": "7ba09ed461c1c3ceda25ac70fd6f06b4c08b30713b59fbef2101b9f8c0fc82d8"
+  },
+  {
+    "author": "jackhilton",
+    "id": 444771,
+    "file": "placemat-wobble-444771-cc0.mp3",
+    "source": "https://freesound.org/people/jackhilton/sounds/444771/",
+    "preview": "https://cdn.freesound.org/previews/444/444771_6159592-hq.mp3",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "checked": "2026-10-23",
+    "bytes": 66521,
+    "sha256": "d9ddf3abdf18b6d2b6c5ced2ebd7ef1b397fda310561456f84efe429312b1558"
+  },
+  {
+    "author": "LewisEmmott5",
+    "id": 732684,
+    "file": "wooden-object-thuds-732684-cc0.mp3",
+    "source": "https://freesound.org/people/LewisEmmott5/sounds/732684/",
+    "preview": "https://cdn.freesound.org/previews/732/732684_15889796-hq.mp3",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "checked": "2026-10-23",
+    "bytes": 83808,
+    "sha256": "6c5c7173591eb2ccbc1addd18e0f07838e88dc53c28af6f0a40d90c2c6fce2bf"
+  }
+]

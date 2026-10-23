@@ -1,0 +1,69 @@
+{
+  "voice": "pt-BR-ThalitaMultilingualNeural",
+  "lang": "pt-br",
+  "provider": "Microsoft Edge online Read Aloud via edge-tts 7.3.1",
+  "voice_review": "Thalita selected by user; V7 positively reviewed. V7.1 revises copy and makes speech faster as requested; full revised mix not yet auditioned.",
+  "authorization": "User explicitly authorized a free no-account online test on 2026-10-22.",
+  "duration": 20.041666666666668,
+  "fps": 24,
+  "speech_start": 5.76,
+  "speech_end": 15.368083,
+  "rate": "+18%",
+  "pitch_preserving_tempo": 1.0,
+  "processing": "High-pass 65 Hz, loudness normalization -17 LUFS / -1.5 dBTP; no music. No post-generation time stretch.",
+  "caption_alignment": "Actual service WordBoundary offsets, grouped into phrases; no estimated karaoke timing.",
+  "cues": [
+    {
+      "id": "caption-1",
+      "text": "Você ficou cinco segundos",
+      "start": 5.80237,
+      "end": 6.99942
+    },
+    {
+      "id": "caption-2",
+      "text": "esperando esse contato.",
+      "start": 6.99942,
+      "end": 8.12812
+    },
+    {
+      "id": "caption-3",
+      "text": "Seu site também precisa",
+      "start": 8.33417,
+      "end": 9.54179
+    },
+    {
+      "id": "caption-4",
+      "text": "causar impacto,",
+      "start": 9.54179,
+      "end": 10.42683
+    },
+    {
+      "id": "caption-5",
+      "text": "prender atenção",
+      "start": 10.45279,
+      "end": 11.43796
+    },
+    {
+      "id": "caption-6",
+      "text": "e conquistar clientes.",
+      "start": 11.43796,
+      "end": 12.60904
+    },
+    {
+      "id": "caption-7",
+      "text": "É isso que a gente resolve.",
+      "start": 12.81508,
+      "end": 14.16625
+    },
+    {
+      "id": "caption-8",
+      "text": "Conheça a Umbrella.",
+      "start": 14.38288,
+      "end": 15.44808
+    }
+  ],
+  "version": "v8",
+  "pitch": "+4Hz",
+  "brand_start": 14.38288,
+  "revision": "Approved V7.1 voice/captions unchanged. Visible initial fall, wall branding, exact user-selected slow-motion reference and recorded Foley."
+}

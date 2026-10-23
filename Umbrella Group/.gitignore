@@ -12,6 +12,16 @@ motion-001/hyperframes-v7/.hyperframes/
 motion-001/v7-frames-*/
 motion-001/v7-1-frames-*/
 motion-001/v7-flash-repro/
+motion-001/v8-frames-*/
+motion-001/v8-check*/
+motion-001/hyperframes-v8/.hyperframes/
+motion-001/tools/yt-dlp/
+motion-001/v8/youtube-slow-motion-reference.json
+# Local creative review only: reuse license of the user-selected effect pending.
+motion-001/source/audio/reference-slow-motion-z_epWpdsHJc.m4a
+motion-001/hyperframes-v8/assets/foley.wav
+motion-001/v8/motion-001-v8-*.mp4
+motion-001/v8/sound-reference-v3.wav
 **/__pycache__/
 *.log
 optix7cache.db*

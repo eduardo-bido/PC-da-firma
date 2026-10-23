@@ -1,5 +1,13 @@
 # Umbrella Group — Motion 001
 
+## V8 — queda evidente, marca no cenário e revisão sonora pela referência
+
+Revisão atual em `v8/motion-001-v8-1080x1920.mp4` e `v8/motion-001-v8-540x960.mp4`, com 20,0417 s e 24 fps. Queda visível já no primeiro instante → super slow motion, marca exata aplicada à parede, voz/legendas V7.1 preservadas. Os dois MP4s foram decodificados integralmente; 193 quadros finais verificados sem repetir as piscadas anteriores. [Método e comandos](v8/README.md).
+
+As duas primeiras propostas sonoras V8 foram rejeitadas. A montagem atual usa o efeito específico de slow motion indicado pelo usuário e contatos gravados. A descrição desse vídeo de YouTube não informa licença: a revisão é para avaliação criativa e não é apresentada como liberada para postagem. Fontes CC0 e referência são distinguidas em `source/audio/LICENSE-V8.md`. Sem nova voz/API, custos, créditos ou publicação no Instagram; LP preservada. Identidade Umbrella 01 → 02 → 03.
+
+Os dois vídeos V8 completos ficam **locais**. A aprovação automática bloqueou a redistribuição pública do efeito sem licença identificada. No Git estão código, voz, efeitos CC0, relatórios, imagens e o render visual silencioso `hyperframes-v8/assets/continuous-take.mp4`. Para montar em outro computador, fornecer um áudio local autorizado com `--reference`. Não substituir pela tentativa rejeitada.
+
 ## V7.1 — correção de piscada, fala mais dinâmica e mensagem direta
 
 A V7 foi avaliada positivamente pelo usuário. Esta revisão preserva a tomada e corrige duas piscadas de iluminação nos quadros originais, atualiza o texto e torna a voz Thalita mais rápida. Fechamento: **“É isso que a gente resolve. Conheça a Umbrella.”**
